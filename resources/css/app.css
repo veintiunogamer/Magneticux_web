@@ -1,0 +1,30 @@
+/* styles.css */
+
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+}
+
+@media (min-width: var(--breakpoint-sm)) {
+  /* Small devices */
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  /* Medium devices */
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+  /* Large devices */
+}
+
+@media (min-width: var(--breakpoint-xl)) {
+  /* Extra large devices */
+}
+
+@media (min-width: var(--breakpoint-xxl)) {
+  /* Extra extra large devices */
+}
