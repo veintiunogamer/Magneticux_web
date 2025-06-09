@@ -10,21 +10,21 @@
 }
 
 @media (min-width: var(--breakpoint-sm)) {
-  /* Small devices */
+  /* ✅ Small devices */
 }
 
 @media (min-width: var(--breakpoint-md)) {
-  /* Medium devices */
+  /* ✅ Medium devices */
 }
 
 @media (min-width: var(--breakpoint-lg)) {
-  /* Large devices */
+  /* ✅ Large devices */
 }
 
 @media (min-width: var(--breakpoint-xl)) {
-  /* Extra large devices */
+  /* ✅ Extra large devices */
 }
 
 @media (min-width: var(--breakpoint-xxl)) {
-  /* Extra extra large devices */
+  /* ✅ Extra extra large devices */
 }
