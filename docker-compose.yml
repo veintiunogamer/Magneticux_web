@@ -66,6 +66,21 @@ services:
       - "traefik.http.routers.${PROJECT_NAME}-phpmyadmin.rule=Host(`${PHPMYADMIN_DOMAIN_NAME}`)"
       - "traefik.docker.network=app"
 
+  enfoque21-vite:
+    image: node:18
+    container_name: ${PROJECT_NAME}-vite
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "npm install && npm run dev"
+    networks:
+      - enfoque21
+      - app
+    ports:
+      - "5173:5173" # Puerto por defecto de Vite
+    labels:
+      - traefik.enable=false
+
 volumes:
   dbdata:
 
