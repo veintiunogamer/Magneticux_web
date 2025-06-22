@@ -94,6 +94,14 @@ a {
   background-color: var(--bg-breadcrumb) !important;
 }
 
+.zoom-hover {
+  transition: transform 0.3s ease;
+}
+
+.zoom-hover:hover {
+  transform: scale(1.03);
+}
+
 /*** HEADER **/
 nav {
   display: flex;
@@ -125,4 +133,32 @@ nav {
 
 .home_portal_section {
   height: auto;
+}
+
+
+/* Móviles pequeños (teléfonos en vertical) */
+@media (max-width: 480px) {
+
+}
+
+
+/* Móviles grandes (teléfonos en horizontal) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* Tabletas (pantallas entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Laptops o pantallas medianas */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Pantallas grandes (escritorios grandes, monitores 1080p o más) */
+@media (min-width: 1200px) and (max-width: 2255px) {
+
+  
 }

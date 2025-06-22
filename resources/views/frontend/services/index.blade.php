@@ -51,7 +51,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- Produccion Video Corporativo -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -76,7 +76,7 @@
             </div>
 
             <!-- Fotografia Profesional -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -101,7 +101,7 @@
             </div>
 
             <!-- Grabacion y edicion de Audio -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -130,7 +130,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- Postproduccion Audiovisual -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -154,7 +154,7 @@
             </div>
 
             <!-- Diseño Gráfico y Branding -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -179,7 +179,7 @@
             </div>
 
             <!-- Desarrollo Web Completo -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -208,7 +208,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- Desarrollo Movil -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -233,7 +233,7 @@
             </div>
 
             <!-- Consultoría Audiovisual y Digital -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -258,7 +258,7 @@
             </div>
 
             <!-- Streaming y Eventos en Vivo -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -307,7 +307,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- Paquete Inicial -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -343,7 +343,7 @@
             </div>
 
             <!-- Paquete Despegue Visual -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
                     
@@ -396,7 +396,7 @@
             </div>
 
             <!-- Paquete Impulso -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3 border-accent bg-light-accent">
 
@@ -460,7 +460,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- Paquete Conexión Local -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -519,7 +519,7 @@
             </div>
 
             <!-- Paquete Pro -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -583,7 +583,7 @@
             </div>
 
             <!-- Paquete Personalizado -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3 border-accent bg-light-accent">
 
@@ -660,7 +660,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- PAQUETE ENTRADA EXPRESS -->
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -703,7 +703,7 @@
             </div>
 
             <!-- PAQUETE BÁSICO – “Listo para Publicar” -->
-            <div class="col">
+            <div class="col zoom-hover">
                 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -753,7 +753,7 @@
             </div>
 
             <!-- PAQUETE PRO – “Presencia & Movimiento” -->
-            <div class="col">
+            <div class="col zoom-hover">
                 
                 <div class="card h-100 shadow-sm rounded-4 p-3 border-accent bg-light-accent">
 
@@ -824,7 +824,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 slide-right-anim">
 
             <!-- PAQUETE CARTERA CRECIENTE -->
-            <div class="col">
+            <div class="col zoom-hover">
                 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -878,7 +878,7 @@
             </div>
 
             <!-- PAQUETE PREMIUM -->
-            <div class="col">
+            <div class="col zoom-hover">
                 
                 <div class="card h-100 shadow-sm rounded-4 p-3">
 
@@ -943,7 +943,7 @@
             </div>
 
             <!-- PAQUETE DOMINIO TOTAL -->
-            <div class="col">
+            <div class="col zoom-hover">
                 
                 <div class="card h-100 shadow-sm rounded-4 p-3 border-accent bg-light-accent">
 

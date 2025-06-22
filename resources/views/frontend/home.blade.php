@@ -30,7 +30,7 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -52,7 +52,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
@@ -75,7 +75,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="col zoom-hover">
 
                 <div class="card h-100 shadow-sm text-center rounded-4">
 
