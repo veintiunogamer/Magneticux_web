@@ -1,29 +1,43 @@
+<header class="sticky-top">
 
-<nav class="col-12">
-    
-    <!-- Logo -->
-    <div class="col-lg-6 col-md-6 col-sm-8">   
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
 
-        <a href="{{ url('/') }}">
-            <img src="{{ Vite::asset('resources/images/E21.png') }}" 
-            alt="Enfoque 21" class="header_logo">
-        </a>
+        <div class="container">
 
-
-    </div>
-
-    <!-- Validacion para boton home - inicio -->
-    @if (!in_array(request()->path(), ['/', '/home']))
-
-        <div class="col-lg-6 col-md-6 col-sm-8 text-end">
-
-            <a href="{{ url('/') }}" class="btn btn-primary me-4">
-                <i class="fa fa-home"></i>&nbsp;
-                Volver al inicio
+            <a class="navbar-brand fw-bold" href="{{ url('/home') }}">
+                Enfoque 21
             </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ url('home') }}">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold {{ request()->routeIs('services') || request()->routeIs('servicio.detalle') ? 'active' : '' }}" href="{{ url('services') }}">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ url('/') }}">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ url('/') }}">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
 
         </div>
 
-    @endif
+    </nav>
     
-</nav>
+</header>
