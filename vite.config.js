@@ -14,7 +14,7 @@ export default defineConfig({
         host: '0.0.0.0',
         port: 5173,
         hmr: {
-            host: 'enfoque21.localhost',
+            host: 'magneticux.localhost',
             protocol: 'ws',
         },
     },
