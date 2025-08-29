@@ -1,5 +1,5 @@
-/* styles.css */
 
+/* styles.css */
 :root {
 
   --breakpoint-xs: 0;
@@ -9,12 +9,12 @@
   --breakpoint-xl: 1200px;
   --breakpoint-xxl: 1400px;
 
-  --bg-color: #f9f9f9;
-  --bg-accent-color: #caf4f7;
-  --bg-breadcrumb: #dadada;
+  --bg-color: #181d22;
+  --bg-accent-color: #232b33;
+  --bg-breadcrumb: #232b33;
 
-  --accent-color: #01cae0;
-  --dark-accent-color: #0099a8;
+  --accent-color: #6ec1e4;
+  --dark-accent-color: #4fa0c2;
   
   --dark: #121212;
   --gray: #d1d5db;
@@ -27,8 +27,17 @@
   --text-color: #1c1c1e;
 }
 
+
+
 html, body {
   margin: 0;
+  background: radial-gradient(ellipse at center, #232b33 0%, #181d22 100%) !important;
+  min-height: 100vh;
+  color: #fff;
+}
+
+body {
+  padding-top: 80px; /* Altura del header fijo */
 }
 
 
@@ -102,13 +111,24 @@ a {
   transform: scale(1.03);
 }
 
+
+
 /*** HEADER **/
+header.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1050;
+  background: #232b33;
+  transition: background 0.3s;
+}
+header.fixed-header.scrolled {
+  background: rgba(35, 43, 51, 0.85);
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.12);
+}
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-  background-color: #f5f5f5;
+  background-color: transparent !important;
 }
 
 .header_logo {
@@ -116,19 +136,127 @@ nav {
   height: 60px;
 }
 
+/* Iconos de servicios */
+.service-icon-circle {
+  width: 80px !important;
+  height: 80px !important;
+  background: #232b33;
+  border-radius: 50%;
+  border: 3px solid #6ec1e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+}
+.service-icon-circle i {
+  color: #6ec1e4 !important;
+  font-size: 2.5rem !important;
+}
 
-/** FOOTER **/
+.service-link {
+  color: #6ec1e4 !important;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+.service-link:hover {
+  color: #4fa0c2 !important;
+  text-decoration: underline;
+}
+.service-icon-circle {
+  width: 90px !important;
+  height: 90px !important;
+  background: #232b33;
+  border-radius: 50%;
+  border: 4px solid #6ec1e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+}
+.service-icon-circle i {
+  color: #6ec1e4 !important;
+  font-size: 2.7rem !important;
+}
 
+/* Icono de equipo */
+.team-icon {
+  width: 90px;
+  height: 90px;
+  background: #232b33;
+  border-radius: 50%;
+  border: 4px solid #6ec1e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.team-icon i {
+  color: #6ec1e4 !important;
+  font-size: 3.5rem !important;
+}
 
-
-/** HOME **/
-.home_header_section, .home_contact_section {
-  height: 500px;
+.member-card {
+  min-height: 340px !important;
+  height: 340px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.member-role {
+  color: #6ec1e4;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/** FOOTER **/
+.footer-magneticux {
+  background: #232b33 !important;
+}
+.bg-magneticux {
+  background: #232b33 !important;
+}
+.btn-magneticux {
+  background: #6ec1e4 !important;
+  color: #232b33 !important;
+  border: none;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+.btn-magneticux:hover {
+  background: #4fa0c2 !important;
+  color: #fff !important;
+}
+
+
+
+/** HOME **/
+.home_header_section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-bottom: none;
+}
+
+.magneticux-logo {
+  font-family: 'Nunito', 'Montserrat', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.magneticux-logo .ux {
+  color: var(--accent-color);
+}
+.magneticux-slogan {
+  color: #cfd8df;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .home_portal_section {

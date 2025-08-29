@@ -1,43 +1,35 @@
-<header class="sticky-top">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-
+<header class="fixed-header" id="mainHeader">
+    <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
-
-            <a class="navbar-brand fw-bold" href="{{ url('/home') }}">
-                Enfoque 21
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="{{ url('/') }}">
+                <span style="font-size: 2rem; font-weight: bold; color: #fff;">Magnetic</span><span style="font-size: 2rem; font-weight: bold; color: #6ec1e4;">UX</span>
             </a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav ms-auto">
-
+                <ul class="navbar-nav ms-auto gap-3">
                     <li class="nav-item">
-                        <a class="nav-link fw-bold {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ url('home') }}">Inicio</a>
+                        <a class="nav-link fw-bold text-white" href="{{ url('/') }}">Sobre nosotros</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link fw-bold {{ request()->routeIs('services') || request()->routeIs('servicio.detalle') ? 'active' : '' }}" href="{{ url('services') }}">Servicios</a>
+                        <a class="nav-link fw-bold text-white" href="{{ url('/servicios') }}">Servicios</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link fw-bold {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ url('/') }}">Nosotros</a>
+                        <a class="nav-link fw-bold text-white" href="{{ url('/contacto') }}">Contacto</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ url('/') }}">Contacto</a>
-                    </li>
-
                 </ul>
-
             </div>
-
         </div>
-
     </nav>
-    
 </header>
+<script>
+    window.addEventListener('scroll', function() {
+        const header = document.getElementById('mainHeader');
+        if(window.scrollY > 10) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+</script>

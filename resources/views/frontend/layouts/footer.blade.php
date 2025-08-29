@@ -1,5 +1,5 @@
 
-<footer class="bg-dark text-white py-5">
+<footer class="footer-magneticux text-white py-5">
 
   <div class="container">
 
@@ -8,7 +8,7 @@
       <!-- Sección 1: Logo + Redes Sociales -->
       <div class="col-md-4 mb-4 mb-md-0">
 
-        <h4 class="mb-3">Enfoque 21</h4>
+        <h4 class="mb-3"><span style="font-size: 2rem; font-weight: bold; color: #fff;">Magnetic</span><span style="font-size: 2rem; font-weight: bold; color: #6ec1e4;">UX</span></h4>
 
         <div class="d-flex gap-3 text-center">
           <a href="#" class="text-white"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
@@ -62,7 +62,7 @@
   <div class="col-12 d-flex p-3 justify-content-center">
     
         <p class="text-center fw-bold">
-            &copy; {{ date('Y') }} Enfoque 21, 
+            &copy; {{ date('Y') }}  <span style="font-size: 1rem; font-weight: bold; color: #fff;">Magnetic </span><span style="font-size: 1rem; font-weight: bold; color: #6ec1e4;">UX</span>, 
             Todos los derechos reservados.
         </p>
 
