@@ -104,6 +104,12 @@ a {
   background-color: var(--bg-breadcrumb) !important;
 }
 
+.bg-card-dark {
+  background: #232b33 !important;
+  border: none !important;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+}
+
 .breadcrumbs > ol {
   background-color: var(--bg-breadcrumb) !important;
 }

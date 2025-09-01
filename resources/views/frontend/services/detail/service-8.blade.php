@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-users me-1"></i> Consultoria Audiovisual & Digital
+                    <i class="fas fa-briefcase me-1"></i> Consultoria Audiovisual & Digital
                 </li>
 
             </ol>
@@ -38,21 +38,12 @@
         <!-- Header -->
         <div class="col-lg-12 col-md-12 col-sm-12 text-center">
 
-            <i class="fa fa-users fa-3x my-2 color-primary"></i>
-            <h2 class="card-title my-3 fw-bold">Consultoria Audiovisual & Digital</h2>
-            
-            <span class="gap-1">
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-            </span>
-
-            <span class="fw-bold ms-3">120 Opiniones</span>
-
-            <a href="#" class="fw-bold ms-3 underline color-primary">Ver detalles</a>
-
+            <h1 class="card-title my-3 fw-bold d-flex align-items-center color-primary">
+                <span class="service-icon-circle mb-3 mt-2 me-4">
+                    <i class="fa fa-briefcase"></i>
+                </span>
+                Consultoria Audiovisual & Digital
+            </h1>
 
         </div>
 

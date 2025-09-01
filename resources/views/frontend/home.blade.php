@@ -51,7 +51,7 @@
             
             <!-- Servicio 1 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-video-camera"></i>
                     </span>
@@ -63,7 +63,7 @@
 
             <!-- Servicio 2 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-camera"></i>
                     </span>
@@ -75,7 +75,7 @@
 
             <!-- Servicio 3 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-microphone"></i>
                     </span>
@@ -87,7 +87,7 @@
 
             <!-- Servicio 4 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-film"></i>
                     </span>
@@ -99,9 +99,9 @@
 
             <!-- Servicio 5 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-pencil"></i>
+                        <i class="fa fa-paint-brush"></i>
                     </span>
                     <h4 class="fw-bold text-white text-center mb-3">Diseño Gráfico y Branding</h4>
                     <div class="text-white-50 mb-3 text-center">Construimos la identidad visual de tu marca, desde el logo y la paleta de colores hasta miniaturas optimizadas para video.</div>
@@ -111,7 +111,7 @@
 
             <!-- Servicio 6 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-code"></i>
                     </span>
@@ -123,7 +123,7 @@
 
             <!-- Servicio 7 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-mobile"></i>
                     </span>
@@ -135,7 +135,7 @@
 
             <!-- Servicio 8 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-briefcase"></i>
                     </span>

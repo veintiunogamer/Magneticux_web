@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-globe me-1"></i> Desarrollo Web Completo
+                    <i class="fas fa-code me-1"></i> Desarrollo Web Completo
                 </li>
 
             </ol>
@@ -38,20 +38,12 @@
         <!-- Header -->
         <div class="col-lg-12 col-md-12 col-sm-12 text-center">
 
-            <i class="fa fa-globe fa-3x my-2 color-primary"></i>
-            <h2 class="card-title my-3 fw-bold">Desarrollo Web Completo</h2>
-
-            <span class="gap-1">
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-            </span>
-
-            <span class="fw-bold ms-3">120 Opiniones</span>
-
-            <a href="#" class="fw-bold ms-3 underline color-primary">Ver detalles</a>
+            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
+                <span class="service-icon-circle mb-3 mt-2 me-4">
+                    <i class="fa fa-code"></i>
+                </span>
+                Desarrollo Web Completo
+            </h1>
 
         </div>
 

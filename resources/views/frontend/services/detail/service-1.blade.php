@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-film me-1"></i> Video Corporativo
+                    <i class="fas fa-video-camera me-1"></i> Video Corporativo
                 </li>
 
             </ol>
@@ -36,22 +36,14 @@
         <br><br>
 
         <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center slide-right-anim">
+        <div class="col-lg-12 col-md-12 col-sm-12 slide-right-anim">
 
-            <i class="fa fa-film fa-3x my-2 color-primary"></i>
-            <h2 class="card-title my-3 fw-bold">Producción de Video Corporativo</h2>
-
-            <span class="gap-1">
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-                <i class="fa fa-star color-yellow"></i>
-            </span>
-
-            <span class="fw-bold ms-3">120 Opiniones</span>
-
-            <a href="#" class="fw-bold ms-3 underline color-primary">Ver detalles</a>
+            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
+                <span class="service-icon-circle mb-3 mt-2 me-4">
+                        <i class="fa fa-video-camera"></i>
+                </span>    
+                Producción de Video Corporativo
+            </h1>
 
         </div>
 
