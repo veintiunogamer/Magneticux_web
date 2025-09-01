@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="container my-5">
+    <div class="container my-5 text-white">
 
 
         <br><br>
@@ -21,7 +21,7 @@
                 </li>
 
                 <li class="breadcrumb-item">
-                    <a href="{{ url('/services') }}" class="text-decoration-none">    
+                    <a href="{{ url('/?=#services') }}" class="text-decoration-none">    
                         <i class="fas fa-briefcase me-1"></i> Servicios
                     </a>
                 </li>

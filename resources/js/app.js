@@ -5,6 +5,21 @@ console.log("App Js loadead!");
 // Registrar el plugin
 gsap.registerPlugin(ScrollTrigger);
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+    anchor.addEventListener('click', function(e) {
+
+        const target = document.querySelector(this.getAttribute('href'));
+
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+    });
+
+});
+
 // Efecto Slide Right
 document.querySelectorAll('.slide-right-anim').forEach(function(element) {
 

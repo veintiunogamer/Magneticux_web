@@ -1,6 +1,6 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Servicios - Enfoque 21')
+@section('title', 'Servicios - Magnetic UX')
 
 @section('content')
 

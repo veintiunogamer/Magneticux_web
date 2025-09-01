@@ -28,6 +28,9 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 html, body {
   margin: 0;
@@ -40,7 +43,9 @@ body {
   padding-top: 80px; /* Altura del header fijo */
 }
 
-
+section[id] {
+  scroll-margin-top: 90px; /* Ajusta según la altura real de tu header */
+}
 
 /** Utilidades **/
 

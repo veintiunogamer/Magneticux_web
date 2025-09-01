@@ -10,13 +10,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto gap-3">
                     <li class="nav-item">
-                        <a class="nav-link fw-bold text-white" href="{{ url('/') }}">Sobre nosotros</a>
+                        <a class="nav-link fw-bold text-white" href="#aboutUs">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold text-white" href="{{ url('/servicios') }}">Servicios</a>
+                        <a class="nav-link fw-bold text-white" href="#services">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold text-white" href="{{ url('/contacto') }}">Contacto</a>
+                        <a class="nav-link fw-bold text-white" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
