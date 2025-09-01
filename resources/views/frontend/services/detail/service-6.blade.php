@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
 
                 Ofrecemos soluciones web integrales, desde el diseño y desarrollo de sitios web
                 corporativos y landing pages optimizadas para conversiones, hasta tiendas online

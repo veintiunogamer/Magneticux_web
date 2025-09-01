@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 La postproducción es la etapa donde la magia cobra vida. 
                 Nuestros servicios de postproducción transforman su material 
                 crudo en una pieza audiovisual pulida y profesional. 

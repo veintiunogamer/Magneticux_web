@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
 
                 Desarrollamos la identidad visual completa para tu marca o proyecto, 
                 asegurando consistencia y profesionalismo. Desde el diseño de logotipos memorables, 

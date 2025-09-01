@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 Nuestro servicio de producción de video corporativo abarca todo el ciclo de 
                 vida del proyecto. Comenzamos con una consulta para entender sus objetivos, 
                 desarrollamos un guion creativo, planificamos la producción, grabamos 

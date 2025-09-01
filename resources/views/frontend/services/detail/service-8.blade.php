@@ -64,7 +64,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 Si no está seguro de cómo el contenido audiovisual o las estrategias digitales 
                 pueden beneficiar a su empresa o proyecto, nuestra consultoría puede ayudarle. 
                 Analizamos sus necesidades, su público objetivo, su competencia y su presupuesto 

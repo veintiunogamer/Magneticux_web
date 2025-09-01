@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 Transformamos tus ideas en aplicaciones funcionales, intuitivas y atractivas. 
                 Desarrollamos aplicaciones móviles nativas para iOS y Android, aplicaciones 
                 híbridas, así como aplicaciones web progresivas (PWA) y plataformas web complejas. 

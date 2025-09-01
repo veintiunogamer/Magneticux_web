@@ -108,6 +108,10 @@ a {
   background-color: var(--bg-breadcrumb) !important;
 }
 
+.breadcrumbs > ol > li > a {
+  color: white !important;
+}
+
 .zoom-hover {
   transition: transform 0.3s ease;
 }

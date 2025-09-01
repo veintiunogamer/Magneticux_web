@@ -63,7 +63,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 Nos especializamos en la grabación y edición de audio para podcasts, 
                 locuciones profesionales (voice-overs), audiolibros, 
                 jingles publicitarios y música incidental. Contamos con un estudio 

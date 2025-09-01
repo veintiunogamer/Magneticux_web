@@ -64,7 +64,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
 
                 Ofrecemos servicios de fotografía profesional para una amplia gama de necesidades. 
                 Cubrimos eventos corporativos y sociales, realizamos sesiones de fotografía 

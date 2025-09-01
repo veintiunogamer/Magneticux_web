@@ -64,7 +64,7 @@
                 Descripción General
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="fw-bold my-3">
                 Llevamos sus eventos a una audiencia global o interna con nuestros servicios 
                 de streaming en vivo. Ofrecemos cobertura multicámara, producción en tiempo 
                 real con realización profesional, integración de gráficos y presentaciones, 
