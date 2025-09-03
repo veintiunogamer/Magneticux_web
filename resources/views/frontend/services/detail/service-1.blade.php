@@ -48,14 +48,9 @@
         </div>
 
         <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4 slide-right-anim">
+         <div class="col-lg-12 col-md-12 col-sm-12 p-4 slide-right-anim">
 
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
-
-            <p class="fw-bold my-3">
+            <p class="fs-5">
                 Nuestro servicio de producción de video corporativo abarca todo el ciclo de 
                 vida del proyecto. Comenzamos con una consulta para entender sus objetivos, 
                 desarrollamos un guion creativo, planificamos la producción, grabamos 
@@ -68,11 +63,10 @@
         </div>
 
         <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4 slide-right-anim">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 my-5 slide-right-anim">
 
             <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
+                ¿Qué incluye el servicio?
             </h4>
 
             <ul class="fa-ul my-4">
@@ -89,11 +83,25 @@
 
         </div>
 
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4 slide-right-anim">
+        <!-- Entregables Tipicos -->
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 slide-right-anim">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
+                Entregables Típicos
+            </h4>
+
+            <ul class="fa-ul my-4">
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Video final en alta resolución (Full HD o 4K)</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Versiones cortas o adaptadas para redes sociales (opcional)</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos fuente del proyecto (bajo acuerdo)</li>
+            </ul>
+
+        </div>
+
+        <!-- Beneficios Clave -->
+        <div class="col-lg-12 col-md-12 col-sm-12 bg-card-dark p-4 my-5 rounded-4 slide-right-anim">
+
+            <h4 class="fw-bold">
                 Beneficios Clave
             </h4>
 
@@ -107,14 +115,13 @@
         </div>
 
         <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4 slide-right-anim">
+        <div class="col-lg-12 col-md-12 col-sm-12 bg-card-dark p-4 my-5 rounded-4 slide-right-anim">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
                 Ideal Para
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="my-3">
                 Empresas de todos los tamaños, startups, instituciones y 
                 organizaciones que deseen mejorar su comunicación audiovisual 
                 y presencia online.
@@ -122,29 +129,13 @@
 
         </div>
 
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4 slide-right-anim">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-4">
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Video final en alta resolución (Full HD o 4K)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Versiones cortas o adaptadas para redes sociales (opcional)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos fuente del proyecto (bajo acuerdo)</li>
-            </ul>
-
-        </div>
 
         <!-- Footer Servicio -->
-         <div class="col-lg-12 col-md-12 col-sm-12 text-center bg-light-accent p-4 rounded-4 my-5 slide-right-anim">
+         <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
             
-            <h3 class="fw-bold my-4">
-                <i class="fa fa-briefcase color-primary"></i>&nbsp;
-                ¿Interesado en este Servicio?
-            </h3>
+            <h2 class="fw-bold my-4 color-primary">
+                ¿Listo para crear algo memorable?
+            </h2>
 
             <p class="my-4">
                 Para solicitar este servicio, por favor diríjase a su locutorio afiliado de 

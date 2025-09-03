@@ -48,14 +48,9 @@
         </div>
 
         <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
 
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
-
-            <p class="fw-bold my-3">
+            <p class="fs-5">
 
                 Ofrecemos servicios de fotografía profesional para una amplia gama de necesidades. 
                 Cubrimos eventos corporativos y sociales, realizamos sesiones de fotografía 
@@ -68,11 +63,10 @@
         </div>
 
         <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 my-5">
 
             <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
+                ¿Qué Incluye el servicio?
             </h4>
 
             <ul class="fa-ul my-5">
@@ -86,11 +80,26 @@
 
         </div>
 
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <!-- Entregables Tipicos -->
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
+                Entregables Típicos
+            </h4>
+
+            <ul class="fa-ul my-5">
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Galería online privada con las fotografías seleccionadas</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos digitales en alta resolución (JPG/TIFF)</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos optimizados para uso web y redes sociales</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Licencia de uso según acuerdo</li>
+            </ul>
+
+        </div>
+
+        <!-- Beneficios Clave -->
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4 mb-4">
+
+            <h4 class="fw-bold">
                 Beneficios Clave
             </h4>
 
@@ -104,14 +113,13 @@
         </div>
 
         <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5 bg-card-dark rounded-4">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
                 Ideal Para
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="my-3">
                 Empresas, emprendedores, tiendas online, organizadores de eventos, 
                 agencias de publicidad y particulares 
                 que necesiten fotografía de alta calidad para diversos fines.
@@ -119,30 +127,12 @@
 
         </div>
 
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Galería online privada con las fotografías seleccionadas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos digitales en alta resolución (JPG/TIFF)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos optimizados para uso web y redes sociales</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Licencia de uso según acuerdo</li>
-            </ul>
-
-        </div>
-
         <!-- Footer Servicio -->
-         <div class="col-lg-12 col-md-12 col-sm-12 text-center my-5 bg-light-accent p-4 rounded-4">
-            
-            <h3 class="fw-bold my-4">
-                <i class="fa fa-briefcase color-primary"></i>&nbsp;
+         <div class="col-lg-12 col-md-12 col-sm-12 text-center my-5 p-4">
+
+            <h2 class="fw-bold my-4 color-primary">
                 ¿Interesado en este Servicio?
-            </h3>
+            </h2>
 
             <p class="my-4">
                 Para solicitar este servicio, por favor diríjase a su locutorio afiliado de 
