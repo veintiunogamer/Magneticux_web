@@ -131,19 +131,18 @@
 
 
         <!-- Footer Servicio -->
-         <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
             
             <h2 class="fw-bold my-4 color-primary">
                 ¿Listo para crear algo memorable?
             </h2>
 
             <p class="my-4">
-                Para solicitar este servicio, por favor diríjase a su locutorio afiliado de 
-                Enfoque 21 más cercano. Ellos gestionarán su solicitud y crearán su 
-                cuenta de cliente.
+                Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
             </p>
 
-            <a href="#" class="btn btn-primary btn-lg my-5">Acceder Panel Afiliados</a>
+            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
 
         </div>
 

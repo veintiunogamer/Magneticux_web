@@ -48,14 +48,10 @@
         </div>
 
         <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
 
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
 
-            <p class="fw-bold my-3">
+            <p class="fs-5 my-3">
 
                 Desarrollamos la identidad visual completa para tu marca o proyecto, 
                 asegurando consistencia y profesionalismo. Desde el diseño de logotipos memorables, 
@@ -70,11 +66,10 @@
         </div>
 
         <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5">
 
             <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
+                ¿Qué incluye el servicio?
             </h4>
 
             <ul class="fa-ul my-5">
@@ -86,11 +81,26 @@
 
         </div>
 
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <!-- Entregables Tipicos -->
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
+                Entregables Típicos
+            </h4>
+
+            <ul class="fa-ul my-5">
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de logotipo en varios formatos (vectorial, PNG, JPG)</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Manual de identidad visual (PDF)</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de diseño editables y listos para imprenta/digital (según proyecto)</li>
+                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Set de miniaturas en formatos optimizados</li>
+            </ul>
+
+        </div>
+
+        <!-- Beneficios Clave -->
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4">
+
+            <h4 class="fw-bold">
                 Beneficios Clave
             </h4>
 
@@ -104,14 +114,13 @@
         </div>
 
         <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4 mt-5">
 
             <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
                 Ideal Para
             </h4>
 
-            <p class="fw-bold text-muted my-3">
+            <p class="my-3">
 
                 Startups, empresas consolidadas, creadores de contenido, youtubers, influencers y 
                 cualquier proyecto que necesite una identidad visual fuerte o mejorar el impacto 
@@ -121,38 +130,20 @@
 
         </div>
 
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de logotipo en varios formatos (vectorial, PNG, JPG)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Manual de identidad visual (PDF)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de diseño editables y listos para imprenta/digital (según proyecto)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Set de miniaturas en formatos optimizados</li>
-            </ul>
-
-        </div>
 
         <!-- Footer Servicio -->
-         <div class="col-lg-12 col-md-12 col-sm-12 text-center bg-light-accent p-4 rounded-4 my-5">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
             
-            <h3 class="fw-bold my-4">
-                <i class="fa fa-briefcase color-primary"></i>&nbsp;
-                ¿Interesado en este Servicio?
-            </h3>
+            <h2 class="fw-bold my-4 color-primary">
+                ¿Listo para crear algo memorable?
+            </h2>
 
             <p class="my-4">
-                Para solicitar este servicio, por favor diríjase a su locutorio afiliado de 
-                Enfoque 21 más cercano. Ellos gestionarán su solicitud y crearán su 
-                cuenta de cliente.
+                Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
             </p>
 
-            <a href="#" class="btn btn-primary btn-lg my-5">Acceder Panel Afiliados</a>
+            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
 
         </div>
 

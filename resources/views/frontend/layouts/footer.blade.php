@@ -40,15 +40,15 @@
 
         <ul class="list-unstyled">
           <li>
-            <i class="fa fa-phone color-white"></i>&nbsp;  
-            +57 300 123 4567
+            <i class="fa fa-phone color-primary"></i>&nbsp;  
+            +34 613 86 47 13
           </li>
           <li>
-            <i class="fa fa-envelope color-white"></i>&nbsp;  
-            yaslo@gmail.com
+            <i class="fa fa-envelope color-primary"></i>&nbsp;  
+            magneticux.contacto@gmail.com
           </li>
           <li>
-            <i class="fa fa-map-marker color-white"></i>&nbsp;  
+            <i class="fa fa-map-marker-alt color-primary"></i>&nbsp;  
             Valencia, España
           </li>
         </ul>
