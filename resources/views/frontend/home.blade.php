@@ -204,4 +204,11 @@
         <a href="#" class="btn btn-magneticux col-lg-4 col-md-4 col-sm-8 p-3 btn-lg my-5 text-white fw-bold" role="button">Hablemos de tu proyecto</a>
     </section>
 
+    <a href="https://wa.me/{{ $whatsappNumber }}?text={{ urlencode($message) }}"
+        id="whatsapp-button"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
 @endsection

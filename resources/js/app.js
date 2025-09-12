@@ -84,3 +84,4 @@ document.querySelectorAll('.slide-down-anim').forEach(function(element) {
     });
     
 });
+

@@ -9,11 +9,19 @@ use App\Http\Controllers\DefaultController;
  * ✅ Rutas para landing publica
 */
 Route::get('/', function () {
-    return view('frontend.home'); // Pagina Inicio
+
+    $whatsappNumber = config('services.whatsapp.number');
+    $message = "¡Hola! Estoy interesado en tus servicios.";
+
+    return view('frontend.home', compact('whatsappNumber', 'message')); // Pagina Inicio
 });
 
 Route::get('/home', function () {
-    return view('frontend.home'); // Pagina Inicio
+
+    $whatsappNumber = config('services.whatsapp.number');
+    $message = "¡Hola! Estoy interesado en tus servicios.";
+
+    return view('frontend.home', compact('whatsappNumber', 'message')); // Pagina Inicio
 });
 
 Route::get('/services', function () {
