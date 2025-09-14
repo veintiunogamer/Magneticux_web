@@ -1,12 +1,10 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Consultoria Audiovisual & Digital')
+@section('title', 'Render de planos')
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -26,7 +24,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-briefcase me-1"></i> Consultoria Audiovisual & Digital
+                    <i class="fas fa-layer-group me-1"></i> Render de planos
                 </li>
 
             </ol>
@@ -35,174 +33,91 @@
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold d-flex align-items-center color-primary">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                    <i class="fa fa-briefcase"></i>
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+
+                <span class="service-icon-circle me-3">
+                    <i class="fa fa-layer-group"></i>
                 </span>
-                Consultoria Audiovisual & Digital
-            </h1>
 
-        </div>
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Render de planos</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Render de planos</h1>
+                </div>
+            </div>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+                
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de renderizado de planos para transformar tus dibujos técnicos 2D en visualizaciones 3D fotorrealistas. 
+                        Nuestro equipo utiliza software avanzado para crear imágenes detalladas que permiten a arquitectos, diseñadores y clientes visualizar proyectos antes de su construcción, 
+                        facilitando la toma de decisiones y mejorando la presentación de tus ideas.
+                    </p>
+                </div>
 
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Modelado 3D a partir de planos 2D.</li>
+                        <li>Texturización y aplicación de materiales realistas.</li>
+                        <li>Iluminación avanzada para mejorar la percepción del espacio.</li>
+                        <li>Renderizado fotorrealista en alta resolución.</li>
+                        <li>Revisiones y ajustes según tus necesidades.</li>
+                    </ul>
+                </div>
 
-            <p class="fw-bold my-3">
-                Si no está seguro de cómo el contenido audiovisual o las estrategias digitales 
-                pueden beneficiar a su empresa o proyecto, nuestra consultoría puede ayudarle. 
-                Analizamos sus necesidades, su público objetivo, su competencia y su presupuesto 
-                para desarrollar una estrategia de contenido y digital efectiva. Esto puede 
-                incluir desde la conceptualización de ideas para videos o campañas, hasta la 
-                planificación de la distribución en canales adecuados, la optimización SEO de su 
-                web, y la integración de todas sus acciones digitales con sus objetivos de 
-                marketing y ventas.
-            </p>
+                <!-- Ideal para -->
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>
+                        Arquitectos, diseñadores de interiores, desarrolladores inmobiliarios y cualquier profesional que necesite presentar proyectos de manera visualmente atractiva y comprensible
+                        a partir de planos técnicos 2D, mejorando la comunicación con clientes e inversores.
+                    </p>
 
-        </div>
+                </div>
 
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
 
-            <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
-            </h4>
+            </div>
 
-            <ul class="fa-ul my-5">
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Análisis de presencia online actual y competencia
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Definición de objetivos y KPIs
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Desarrollo de estrategia de contenido (temas, formatos, calendario)
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Recomendaciones para optimización SEO y SEM
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Asesoramiento en selección de plataformas y herramientas digitales
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Planes de marketing digital integrales
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Formación y capacitación para equipos internos (opcional)
-                </li>
-                </ul>
+            <div class="col-lg-5">
 
-        </div>
+                <!-- entregables -->
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Modelos 3D fotorrealistas en formatos JPEG, PNG o TIFF.</li>
+                        <li>Animaciones y recorridos virtuales (opcional).</li>
+                        <li>Archivos editables del proyecto en formatos compatibles con software de diseño 3D.</li>
+                    </ul>
+                </div>
 
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
+                <!-- Beneficios clave -->    
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Convierte planos 2D en imágenes 3D detalladas.</li>
+                        <li>Facilita la comprensión del proyecto entre todas las partes involucradas.</li>
+                        <li>Permite identificar y corregir posibles problemas antes de la construcción.</li>
+                        <li>Mejora la presentación de proyectos a clientes e inversores.</li>
+                    </ul>
+                </div>
 
-            <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
-                Beneficios Clave
-            </h4>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
 
-            <ul class="fa-ul my-5">
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>
-                    Claridad en la dirección estratégica de tus esfuerzos digitales
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>
-                    Optimización del retorno de la inversión (ROI) en marketing
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>
-                    Mejora del posicionamiento de marca y alcance
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>
-                    Toma de decisiones informada basada en análisis y datos
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>
-                    Adaptación a las últimas tendencias y mejores prácticas del mercado
-                </li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
-                Ideal Para
-            </h4>
-
-            <p class="fw-bold text-muted my-3">
-                Empresas que buscan mejorar su estrategia digital, startups que necesitan 
-                definir su plan de marketing, o cualquier organización que quiera potenciar 
-                su comunicación online.
-            </p>
-
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Documento de estrategia digital y plan de acción
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Informe de análisis y recomendaciones
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Calendario de contenidos (si aplica)
-                </li>
-                <li class="my-3">
-                    <span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>
-                    Sesiones de consultoría y seguimiento
-                </li>
-            </ul>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+            </div>
 
 @endsection

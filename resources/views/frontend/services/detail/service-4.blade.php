@@ -1,6 +1,6 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Post-produccion Audiovisual')
+@section('title', 'Branding para Eventos')
 
 @section('content')
 
@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-film me-1"></i> Postproducción Audiovisual
+                    <i class="fas fa-calendar me-1"></i> Branding para Eventos
                 </li>
 
             </ol>
@@ -36,112 +36,93 @@
         <br><br>
 
         <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <!-- Header -->
+        <div class="col-12 d-flex align-items-center mb-3">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                    <i class="fa fa-film"></i>
-                </span>
-                Postproducción Audiovisual
-            </h1>
+            <span class="service-icon-circle me-3">
+                <i class="fa fa-calendar"></i>
+            </span>
 
-        </div>
-
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <p class="fs-5 my-3">
-                La postproducción es la etapa donde la magia cobra vida. 
-                Nuestros servicios de postproducción transforman su material 
-                crudo en una pieza audiovisual pulida y profesional. 
-                Esto incluye edición de video avanzada, corrección de 
-                color cinematográfica para lograr el look deseado, creación de motion graphics
-                personalizados (títulos, tercios inferiores, animaciones de logo), y efectos 
-                visuales (VFX) básicos para realzar la narrativa.
-            </p>
+            <div>
+                <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Branding para Eventos</span>
+                <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Branding para Eventos</h1>
+            </div>
 
         </div>
 
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
+        <div class="row align-items-start gy-4">
 
-            <h4 class="fw-bold">
-                ¿Qué incluye el servicio?
-            </h4>
+            <!-- Descripción general -->
+            <div class="col-lg-7">
 
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Edición y montaje de video a partir de material bruto</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Corrección de color y etalonaje profesional</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Diseño y animación de motion graphics (2D/3D básicos)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Creación de títulos y créditos</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Mezcla y diseño de sonido básico (sincronización, niveles)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Subtitulado y creación de versiones (si es necesario)</li>
-            </ul>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de branding para eventos, ayudando a empresas y organizaciones a crear una identidad visual coherente y atractiva para sus conferencias, ferias, lanzamientos de productos y otros eventos especiales. 
+                        Nuestro equipo diseña logotipos, materiales promocionales, señalización y elementos gráficos que reflejan la esencia del evento y capturan la atención del público.
+                    </p>
+                </div>
 
-        </div>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Consultoría inicial para entender los objetivos del evento</li>
+                        <li>Diseño de logotipo y paleta de colores</li>
+                        <li>Creación de materiales promocionales (flyers, posters, banners)</li>
+                        <li>Diseño de señalización y elementos gráficos para el evento</li>
+                        <li>Adaptación de la identidad visual a diferentes formatos (digital e impreso)</li>
+                        <li>Revisiones y ajustes según feedback del cliente</li>
+                        <li>Entrega de archivos en formatos adecuados para impresión y uso digital</li>
+                    </ul>
+                </div>
 
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>Empresas, organizaciones y agencias que buscan crear una identidad visual fuerte y memorable para sus eventos, asegurando una experiencia cohesiva y profesional para los asistentes.</p>
+                </div>
 
-            <h4 class="fw-bold">
-                Entregables Típicos
-            </h4>
+            </div>
 
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Video final editado en alta resolución</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de video en formatos específicos para diferentes plataformas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Gráficos y animaciones como archivos separados (si aplica)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Proyecto de edición (bajo acuerdo)</li>
-            </ul>
+            <div class="col-lg-5">
 
-        </div>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Logotipo del evento en varios formatos (PNG, SVG, JPG)</li>
+                        <li>Manual de identidad visual del evento</li>
+                        <li>Materiales promocionales listos para impresión y distribución digital</li>
+                        <li>Señalización y gráficos para uso durante el evento</li>
+                    </ul>
+                </div>
 
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4">
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Identidad visual coherente que refuerza la marca del evento</li>
+                        <li>Materiales atractivos que capturan la atención del público</li>
+                        <li>Mejora la experiencia del asistente mediante una señalización clara</li>
+                        <li>Adaptación a las tendencias actuales de diseño y marketing</li>
+                    </ul>   
 
-            <h4 class="fw-bold">
-                Beneficios Clave
-            </h4>
+                </div>
 
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Producto final cohesivo, atractivo y profesional</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mejora del impacto visual y narrativo del contenido</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Consistencia de marca a través de gráficos y estilo visual</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Optimización del material para diferentes plataformas</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5 bg-card-dark rounded-4">
-
-            <h4 class="fw-bold">
-                Ideal Para
-            </h4>
-
-            <p class="">
-                Productores de video, cineastas independientes, agencias de marketing, 
-                empresas que generan contenido de video y necesitan un acabado profesional.
-            </p>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
+                
+            </div>
 
         </div>
 
     </div>
+
+</section>
 
 @endsection

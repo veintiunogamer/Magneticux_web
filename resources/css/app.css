@@ -243,7 +243,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
 }
 .service-icon-circle i {
   color: #6ec1e4 !important;
@@ -269,7 +268,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
 }
 .service-icon-circle i {
   color: #6ec1e4 !important;
@@ -546,7 +544,6 @@ nav {
     margin-bottom: 1.5rem;
     margin-top: 1rem;
     border: 2px solid rgba(110,193,228,0.12);
-    box-shadow: 0 2px 8px rgba(110,193,228,0.10);
     transition: border-color 0.3s;
 }
 
@@ -656,6 +653,33 @@ nav {
 #whatsapp-button:hover {
   background-color: #20b858;
   transform: scale(1.1);
+}
+
+/* Tarjetas de detalle de servicios */
+.service-detail-card {
+    background: #212733;
+    border-radius: 28px;
+    border: 1px solid #232b33;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #cfd8df;
+}
+
+.service-detail-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.service-detail-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.service-detail-card li {
+    margin-bottom: 0.5rem;
+    color: #cfd8df;
+    font-size: 1rem;
 }
 
 /* Móviles pequeños (teléfonos en vertical) */
@@ -879,6 +903,13 @@ nav {
   }
   .ready-card h2 {
     font-size: 2rem !important;
+  }
+  .service-detail-card {
+    padding: 1rem 0.7rem;
+    border-radius: 18px;
+  }
+  .service-detail-card h3 {
+    font-size: 1.1rem;
   }
 
 }

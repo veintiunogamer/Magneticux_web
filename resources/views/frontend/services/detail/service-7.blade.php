@@ -1,12 +1,10 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Desarrollo Movil')
+@section('title', 'Delineado AutoCAD')
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -26,136 +24,99 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-mobile-alt me-1"></i> Desarrollo Movil
+                    <i class="fas fa-ruler-combined me-1"></i> Delineado AutoCAD
                 </li>
 
             </ol>
-
         </div>
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                    <i class="fa fa-mobile-alt"></i>
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+
+                <span class="service-icon-circle me-3">
+                    <i class="fa fa-ruler-combined"></i>
                 </span>
-                Desarrollo Movil
-            </h1>
+
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Delineado AutoCAD</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Delineado AutoCAD</h1>
+                </div>
+            </div>
+
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+                
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios profesionales de delineado en AutoCAD para transformar tus ideas y bocetos en planos técnicos 2D precisos y organizados. 
+                        Nuestro equipo de expertos utiliza las últimas herramientas y técnicas de AutoCAD para crear dibujos detallados que cumplen con los estándares de la industria, 
+                        facilitando la comunicación y colaboración en tus proyectos de arquitectura, ingeniería o diseño.
+                    </p>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Precisión y detalle: Nuestros delineantes son expertos en AutoCAD y se aseguran de que cada línea, dimensión y anotación sea exacta.</li>
+                        <li>Personalización: Adaptamos nuestros servicios a tus necesidades específicas, ya sea para proyectos residenciales, comerciales o industriales.</li>
+                        <li>Entrega rápida: Entendemos la importancia de los plazos en los proyectos, por lo que nos comprometemos a entregar tus planos a tiempo.</li>
+                        <li>Soporte continuo: Ofrecemos asistencia post-entrega para cualquier ajuste o modificación que puedas necesitar.</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p> 
+                        Arquitectos, ingenieros, diseñadores y profesionales de la construcción que necesitan planos técnicos detallados y precisos para sus proyectos.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+                
+                <!-- entregables -->
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Planos técnicos 2D en formato DWG o PDF.</li>
+                        <li>Documentación adicional según sea necesario (listas de materiales, especificaciones, etc.).</li>
+                        <li>Soporte para revisiones y modificaciones post-entrega.</li>
+                    </ul>
+                </div>
+
+                <!-- Beneficios clave -->
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Mejora la comunicación y colaboración en tus proyectos.</li>
+                        <li>Asegura la precisión y calidad de tus planos técnicos.</li>
+                        <li>Optimiza el tiempo y recursos en la fase de diseño.</li>
+                        <li>Facilita la obtención de permisos y aprobaciones necesarias.</li>
+                        <li>Incrementa la satisfacción del cliente al entregar resultados de alta calidad.</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
+
+            </div>
 
         </div>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
-
-            <p class="fw-bold my-3">
-                Transformamos tus ideas en aplicaciones funcionales, intuitivas y atractivas. 
-                Desarrollamos aplicaciones móviles nativas para iOS y Android, aplicaciones 
-                híbridas, así como aplicaciones web progresivas (PWA) y plataformas web complejas. 
-                Nuestro proceso incluye consultoría estratégica, diseño de interfaz y experiencia 
-                de usuario (UI/UX), desarrollo ágil, pruebas exhaustivas en múltiples dispositivos 
-                y soporte post-lanzamiento para asegurar el éxito de tu aplicación.
-            </p>
-
-        </div>
-
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Consultoría y definición de alcance del proyecto</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Diseño UI/UX (wireframes, prototipos, diseño visual)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo nativo para iOS (Swift/Objective-C) y Android (Kotlin/Java)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo de aplicaciones web (React, Angular, Vue, Node.js, etc.)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo de APIs y backend robusto</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Integración con servicios de terceros</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Pruebas de calidad (QA) y depuración</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Publicación en App Store y Google Play Store (para apps móviles)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Mantenimiento y evolución de la aplicación</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Soluciones digitales a medida para tus necesidades específicas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Experiencia de usuario optimizada para engagement y retención</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Aplicaciones escalables y de alto rendimiento</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Posibilidad de alcanzar a tu audiencia en múltiples plataformas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Innovación y diferenciación en tu sector</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
-                Ideal Para
-            </h4>
-
-            <p class="fw-bold text-muted my-3">
-                Startups, empresas que buscan digitalizar procesos, emprendedores con ideas 
-                innovadoras, y organizaciones que quieren ofrecer nuevos servicios a través 
-                de aplicaciones móviles o web.
-            </p>
-
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Aplicación móvil compilada (IPA para iOS, APK para Android)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Aplicación web desplegada</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Código fuente completo (bajo acuerdo)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Documentación técnica y de usuario</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Soporte técnico post-lanzamiento</li>
-            </ul>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+    </section>  
 
 @endsection

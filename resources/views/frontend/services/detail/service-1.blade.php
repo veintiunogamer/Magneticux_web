@@ -1,12 +1,11 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Producion Video Corporativo')
+@section('title', 'Video Corporativo')
 
 @section('content')
 
-    <div class="container my-5 text-white">
 
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -35,117 +34,83 @@
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 slide-right-anim">
+        <!-- Detalle del servicio -->
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                        <i class="fa fa-video-camera"></i>
-                </span>    
-                Producción de Video Corporativo
-            </h1>
+            <div class="col-12 d-flex align-items-center mb-3">
 
-        </div>
+                <span class="service-icon-circle me-3">
+                    <i class="fa fa-video-camera"></i>
+                </span>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 p-4 slide-right-anim">
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Video Corporativo</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Video Corporativo</h1>
+                </div>
+            </div>
 
-            <p class="fs-5">
-                Nuestro servicio de producción de video corporativo abarca todo el ciclo de 
-                vida del proyecto. Comenzamos con una consulta para entender sus objetivos, 
-                desarrollamos un guion creativo, planificamos la producción, grabamos 
-                con equipo profesional y finalizamos con una postproducción detallada 
-                que incluye edición, corrección de color, sonido y gráficos. Ideal para 
-                presentaciones de empresa, videos promocionales, testimoniales y contenido 
-                para redes sociales.
-            </p>
+            <div class="col-lg-7">
 
-        </div>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de producción de video corporativo para empresas que buscan comunicar su mensaje de manera efectiva. 
+                        Desde la conceptualización y el guion hasta la filmación y la postproducción, nuestro equipo maneja cada etapa del proceso. 
+                        Creamos videos institucionales, promocionales, testimoniales y de capacitación, adaptados a las necesidades específicas de cada cliente. 
+                    </p>
+                </div>
 
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 my-5 slide-right-anim">
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Consultoría inicial para entender los objetivos del video</li>
+                        <li>Desarrollo de concepto y guion</li>
+                        <li>Planificación y logística de la producción</li>
+                        <li>Filmación en alta definición con equipo profesional</li>
+                        <li>Edición y postproducción, incluyendo gráficos y música</li>
+                        <li>Revisiones y ajustes según feedback del cliente</li>
+                        <li>Entrega en formatos adecuados para diversas plataformas</li>
+                    </ul>
+                </div>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>Un video profesional mejora la percepción de tu marca, comunica mensajes complejos de forma sencilla y aumenta el engagement en plataformas digitales, un pilar de la digitalización.</p>
+                </div>
+            </div>
 
-            <h4 class="fw-bold">
-                ¿Qué incluye el servicio?
-            </h4>
+            <div class="col-lg-5">
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Guion técnico y storyboard</li>
+                        <li>Rodaje multi-cámara</li>
+                        <li>Edición avanzada y etalonaje</li>
+                        <li>Subtítulos opcionales</li>
+                        <li>Formatos horizontal y vertical</li>
+                    </ul>
+                </div>
 
-            <ul class="fa-ul my-4">
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Consulta inicial y definición de objetivos</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo de guion y storyboard</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Planificación de producción y logística</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Rodaje con equipo profesional (cámaras, iluminación, sonido)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Edición de video y montaje</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Corrección de color y etalonaje</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Diseño de sonido y mezcla de audio</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Inclusión de gráficos y animaciones (si aplica)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Entrega en formatos optimizados para web y redes sociales</li>
-            </ul>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios Clave</h3>
+                    <ul>
+                        <li>Comunicación clara y profesional de tu mensaje</li>
+                        <li>Mejora la imagen de marca y la confianza del cliente</li>
+                        <li>Contenido versátil para múltiples plataformas</li>
+                        <li>Aumento del engagement y alcance en redes sociales</li>
+                    </ul>
+                </div>
 
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 slide-right-anim">
-
-            <h4 class="fw-bold">
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-4">
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Video final en alta resolución (Full HD o 4K)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Versiones cortas o adaptadas para redes sociales (opcional)</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos fuente del proyecto (bajo acuerdo)</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 bg-card-dark p-4 my-5 rounded-4 slide-right-anim">
-
-            <h4 class="fw-bold">
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-4">
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Comunicación efectiva de mensajes clave</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mejora de la imagen y credibilidad de marca</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Aumento del engagement y alcance online</li>
-                <li class="mb-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Material versátil para marketing y ventas</li>
-            </ul>
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>Contáctanos para obtener una propuesta personalizada para tu proyecto.</p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Consulta sin compromiso <span class="ms-2">→</span>
+                    </a>
+                </div>
+            </div>
 
         </div>
 
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 bg-card-dark p-4 my-5 rounded-4 slide-right-anim">
-
-            <h4 class="fw-bold">
-                Ideal Para
-            </h4>
-
-            <p class="my-3">
-                Empresas de todos los tamaños, startups, instituciones y 
-                organizaciones que deseen mejorar su comunicación audiovisual 
-                y presencia online.
-            </p>
-
-        </div>
-
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+    </section>
 
 @endsection

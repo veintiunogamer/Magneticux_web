@@ -1,13 +1,11 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Edicion de Audio')
+@section('title', 'Contenido vertical para redes')
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
-
+    <section class="container py-5">
+        
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
 
@@ -26,7 +24,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-microphone me-1"></i> Grabación y Edición de Audio
+                    <i class="fas fa-mobile me-1"></i> Contenido vertical para redes
                 </li>
 
             </ol>
@@ -35,115 +33,91 @@
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                    <i class="fa fa-microphone"></i>
+        <div class="row align-items-start gy-4">
+
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+
+                <span class="service-icon-circle me-3">
+                    <i class="fa fa-mobile"></i>
                 </span>
-                Grabación y Edición de Audio
-            </h1>
 
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Contenido vertical para redes</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Contenido vertical para redes</h1>
+                </div>
+
+            </div>
+
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de producción de contenido vertical optimizado para redes sociales como Instagram, TikTok y Facebook. 
+                        Nuestro equipo crea videos atractivos y dinámicos en formato vertical que capturan la atención de la audiencia móvil. 
+                        Desde la conceptualización hasta la edición final, nos aseguramos de que cada video esté diseñado para maximizar el impacto en plataformas sociales, ayudando a las marcas a aumentar su visibilidad y engagement.
+                    </p>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Consultoría inicial para entender los objetivos del contenido</li>
+                        <li>Desarrollo de conceptos creativos adaptados a formato vertical</li>
+                        <li>Filmación con equipo especializado para contenido móvil</li>
+                        <li>Edición dinámica y atractiva, optimizada para redes sociales</li>
+                        <li>Incorporación de música, gráficos y efectos visuales</li>
+                        <li>Revisiones y ajustes según feedback del cliente</li>
+                        <li>Entrega en formatos adecuados para diversas plataformas sociales</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>Marcas y empresas que buscan aumentar su presencia en redes sociales mediante contenido visual atractivo y adaptado a dispositivos móviles.</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Concepto creativo y guion</li>
+                        <li>Filmación en formato vertical</li>
+                        <li>Edición dinámica y atractiva</li>
+                        <li>Incorporación de música y gráficos</li>
+                        <li>Formatos optimizados para Instagram, TikTok, Facebook, etc.</li>
+                    </ul>
+                </div>
+                
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Mejora la visibilidad y el engagement en redes sociales</li>
+                        <li>Contenido optimizado para dispositivos móviles</li>
+                        <li>Aumento del alcance orgánico y viralidad</li>
+                        <li>Adaptación a las tendencias actuales de consumo de contenido</li>
+                        <li>Soporte completo desde la idea hasta el producto final</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-
-            <p class="fs-5">
-                Nos especializamos en la grabación y edición de audio para podcasts, 
-                locuciones profesionales (voice-overs), audiolibros, 
-                jingles publicitarios y música incidental. Contamos con un estudio 
-                equipado y técnicos de sonido para capturar audio de alta fidelidad. 
-                Nuestro equipo de edición se encarga de limpiar, mezclar y masterizar 
-                sus pistas, asegurando un producto final claro, profesional y listo para 
-                su distribución.
-            </p>
-
-        </div>
-
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <h4 class="fw-bold">
-                ¿Qué incluye el servicio?
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Grabación de voz en estudio o en localización (según proyecto)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Edición de audio (eliminación de ruidos, errores, silencios)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Mezcla de múltiples pistas (voces, música, efectos)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Masterización para optimizar la calidad y volumen final</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Creación y edición de podcasts completos</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Servicio de locución profesional en varios idiomas/acentos (bajo demanda)</li>
-            </ul>
-
-        </div>
-
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <h4 class="fw-bold">
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de audio en formatos estándar (MP3, WAV, etc.)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Episodios de podcast editados y listos para publicar</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Pistas de locución sincronizadas (si aplica)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de proyecto (bajo acuerdo)</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5 bg-card-dark rounded-4">
-
-            <h4 class="fw-bold">
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Audio claro, nítido y profesional</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mejora la experiencia del oyente en podcasts y audiolibros</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Locuciones que transmiten el mensaje de forma efectiva</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Producción de audio que cumple con estándares de la industria</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5 bg-card-dark rounded-4">
-
-            <h4 class="fw-bold">
-                Ideal Para
-            </h4>
-
-            <p class="my-3">
-                Creadores de podcasts, empresas que necesitan locuciones para 
-                videos o IVR, autores de audiolibros, músicos, agencias de publicidad.
-            </p>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+    </section>
 
 @endsection

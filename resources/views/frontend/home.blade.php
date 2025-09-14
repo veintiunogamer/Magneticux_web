@@ -132,19 +132,19 @@
                 </div>
             </div>
 
-            <!-- Servicio 5 -->
+            <!-- Servicio 7 -->
             <div class="col">
                 <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-paint-brush"></i>
+                        <i class="fa fa-ruler-combined"></i>
                     </span>
                     <h4 class="fw-bold text-white text-center mb-3">Delineado AutoCAD</h4>
                     <div class="text-white-50 mb-3 text-center">Creación de planos técnicos 2D precisos y organizados.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-5']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-7']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <!-- Servicio 7 -->
+            <!-- Servicio 8 -->
             <div class="col">
                 <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
@@ -152,11 +152,11 @@
                     </span>
                     <h4 class="fw-bold text-white text-center mb-3">Render de planos</h4>
                     <div class="text-white-50 mb-3 text-center">Visualización 3D fotorrealista a partir de planos 2D.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-7']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-8']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <!-- Servicio 8 -->
+            <!-- Servicio 9 -->
             <!--<div class="col">
                 <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">

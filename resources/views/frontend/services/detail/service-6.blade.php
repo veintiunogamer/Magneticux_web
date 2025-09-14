@@ -1,12 +1,10 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Desarrollo Web')
+@section('title', 'Software y Landing pages')
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -23,143 +21,103 @@
                     <a href="{{ url('/?=#services') }}" class="text-decoration-none">    
                         <i class="fas fa-briefcase me-1"></i> Servicios
                     </a>
-                </li>
+                </li>   
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-code me-1"></i> Desarrollo Web Completo
+                    <i class="fas fa-code me-1"></i> Software y Landing pages
                 </li>
-
             </ol>
 
         </div>
-
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+
+                <span class="service-icon-circle me-3">
                     <i class="fa fa-code"></i>
                 </span>
-                Desarrollo Web Completo
-            </h1>
+
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Software y Landing pages</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Software y Landing pages</h1>
+                </div>
+
+            </div>
+
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de desarrollo de software y creación de landing pages para ayudar a las empresas a establecer una presencia en línea efectiva y alcanzar sus objetivos comerciales. 
+                        Nuestro equipo de expertos trabaja en estrecha colaboración con los clientes para diseñar y desarrollar soluciones personalizadas que se adapten a sus necesidades específicas, ya sea a través de aplicaciones web, móviles o páginas de destino optimizadas para la conversión.
+                    </p>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Desarrollo de software a medida</li>
+                        <li>Diseño y creación de landing pages optimizadas</li>
+                        <li>Integración con herramientas de marketing y análisis</li>
+                        <li>Optimización para motores de búsqueda (SEO)</li>
+                        <li>Pruebas y aseguramiento de la calidad</li>
+                        <li>Mantenimiento y soporte continuo</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>
+                        Empresas que buscan desarrollar aplicaciones personalizadas, startups que necesitan una plataforma digital para lanzar su producto, negocios que desean crear landing pages efectivas para campañas de marketing específicas y cualquier organización que busque mejorar su presencia en línea mediante soluciones tecnológicas innovadoras.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <!-- entregables -->
+                 <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Software funcional y probado según los requisitos del cliente</li>
+                        <li>Landing pages diseñadas y optimizadas para la conversión</li>
+                        <li>Documentación técnica y manuales de usuario</li>
+                        <li>Soporte post-lanzamiento y actualizaciones según sea necesario</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Soluciones personalizadas que se adaptan a las necesidades del negocio</li>
+                        <li>Soporte completo desde la idea hasta la entrega final</li>
+                        <li>Adaptación a las tendencias actuales de diseño y tecnología</li>
+                    </ul>   
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
+
+            </div>
 
         </div>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-circle-info color-primary"></i>&nbsp;
-                Descripción General
-            </h4>
-
-            <p class="fw-bold my-3">
-
-                Ofrecemos soluciones web integrales, desde el diseño y desarrollo de sitios web
-                corporativos y landing pages optimizadas para conversiones, hasta tiendas online
-                (e-commerce) robustas. Nos encargamos del ciclo completo: 
-                consultoría inicial, planificación, diseño UI/UX, desarrollo frontend y 
-                backend utilizando tecnologías modernas, pruebas exhaustivas y despliegue. 
-                También proveemos servicios de mantenimiento continuo, actualizaciones 
-                de seguridad, optimización de rendimiento y gestión de contenido 
-                para que tu web esté siempre al día, segura y funcionando de manera óptima.
-
-            </p>
-
-        </div>
-
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-list-check color-primary"></i>&nbsp;
-                ¿Qué Incluye?
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Diseño UI/UX personalizado y responsivo (adaptable a móviles y tablets)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo frontend (HTML, CSS, JavaScript, React/Next.js)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Desarrollo backend (Node.js, Python, PHP - según proyecto)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Integración con CMS (WordPress, Shopify, etc.) si se requiere</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Optimización SEO básica on-page (estructura, metadatos)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Configuración de hosting y dominio (asesoramiento o gestión)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Planes de mantenimiento y actualización de contenido y seguridad</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-bolt color-primary"></i>&nbsp;
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Presencia online profesional, moderna y adaptada a tu marca</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mejora de la experiencia de usuario (UX) para aumentar la retención</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mayor visibilidad en motores de búsqueda (SEO)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Plataforma web escalable y adaptada a tus futuras necesidades</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Sitio web seguro y con rendimiento optimizado</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-bullseye color-primary"></i>&nbsp;
-                Ideal Para
-            </h4>
-
-            <p class="fw-bold text-muted my-3">
-
-                Empresas de todos los tamaños, PyMEs, emprendedores, profesionales independientes 
-                y cualquier organización que necesite un sitio web efectivo o quiera 
-                renovar/mantener su presencia online.
-
-            </p>
-
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 border-grey p-4 my-5 rounded-4">
-
-            <h4 class="fw-bold">
-                <i class="fa fa-box color-primary"></i>&nbsp;
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Sitio web completamente funcional y desplegado en servidor</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Acceso al panel de administración (CMS) si aplica</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Documentación básica de uso y gestión del sitio</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos fuente del proyecto (bajo acuerdo)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Reportes de mantenimiento (para planes de mantenimiento)</li>
-            </ul>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+    </section>
 
 @endsection

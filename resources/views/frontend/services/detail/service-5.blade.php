@@ -1,12 +1,10 @@
 @extends('frontend.layouts.main')
 
-@section('title', 'Branding')
+@section('title', 'Branding e Identidad Visual')
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -26,7 +24,7 @@
                 </li>
 
                 <li class="breadcrumb-item active color-primary" aria-current="page">
-                    <i class="fas fa-paint-brush me-1"></i> Diseño Gráfico y Branding
+                    <i class="fas fa-star me-1"></i> Branding e Identidad Visual
                 </li>
 
             </ol>
@@ -35,118 +33,95 @@
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
-                    <i class="fa fa-paint-brush"></i>
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+
+                <span class="service-icon-circle me-3">
+                    <i class="fa fa-star"></i>
                 </span>
-                Diseño Gráfico y Branding
-            </h1>
+
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Branding e Identidad Visual</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Branding e Identidad Visual</h1>
+                </div>
+
+            </div>
+
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de branding e identidad visual para ayudar a las empresas a definir y comunicar su marca de manera efectiva. 
+                        Nuestro enfoque integral incluye la creación de logotipos, paletas de colores, tipografías y otros elementos visuales que reflejan la esencia de la marca. 
+                        Trabajamos en estrecha colaboración con nuestros clientes para desarrollar una identidad coherente y atractiva que resuene con su audiencia objetivo.
+                    </p>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Consultoría inicial para entender los objetivos y valores de la marca</li>
+                        <li>Investigación de mercado y análisis de la competencia</li>
+                        <li>Desarrollo de conceptos y propuestas de diseño</li>
+                        <li>Revisiones y ajustes según feedback del cliente</li>
+                        <li>Entrega de archivos en formatos adecuados para impresión y uso digital</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal para</h3>
+                    <p>
+                        Empresas nuevas que buscan establecer su identidad de marca, negocios existentes que desean refrescar su imagen, 
+                        organizaciones que buscan una identidad visual coherente para sus campañas de marketing y cualquier entidad que quiera destacar en un mercado competitivo.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Logotipo en varios formatos (PNG, SVG, JPG)</li>
+                        <li>Manual de identidad visual</li>
+                        <li>Paleta de colores y tipografías</li>
+                        <li>Plantillas para presentaciones y documentos</li>
+                        <li>Materiales promocionales básicos (tarjetas de presentación, folletos)</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios clave</h3>
+                    <ul>
+                        <li>Identidad de marca clara y coherente</li>
+                        <li>Diferenciación frente a la competencia</li>
+                        <li>Mayor reconocimiento y recordación de la marca</li>
+                        <li>Mejora en la percepción y confianza del cliente</li>
+                    </ul>   
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>
+                        Para solicitar este servicio, por favor diligencia el formulario a continuación y
+                        uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
+                    </p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Hablemos de tu proyecto <span class="ms-2">→</span>
+                    </a>
+                </div>
+
+            </div>
 
         </div>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
+    </section>
 
-
-            <p class="fs-5 my-3">
-
-                Desarrollamos la identidad visual completa para tu marca o proyecto, 
-                asegurando consistencia y profesionalismo. Desde el diseño de logotipos memorables, 
-                selección de paletas de colores y tipografía, hasta la creación de material publicitario 
-                cohesivo como folletos, tarjetas de visita, banners digitales y presentaciones. 
-                Nos especializamos también en el diseño de miniaturas atractivas y optimizadas para 
-                plataformas de video y redes sociales (YouTube, Instagram, etc.), 
-                cruciales para captar la atención y mejorar las tasas de clics (CTR).
-
-            </p>
-
-        </div>
-
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5">
-
-            <h4 class="fw-bold">
-                ¿Qué incluye el servicio?
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Video final editado en alta resolución</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de video en formatos específicos para diferentes plataformas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Gráficos y animaciones como archivos separados (si aplica)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Proyecto de edición (bajo acuerdo)</li>
-            </ul>
-
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <h4 class="fw-bold">
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de logotipo en varios formatos (vectorial, PNG, JPG)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Manual de identidad visual (PDF)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos de diseño editables y listos para imprenta/digital (según proyecto)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Set de miniaturas en formatos optimizados</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4">
-
-            <h4 class="fw-bold">
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Identidad de marca sólida, coherente y profesional</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Mejora del reconocimiento y la recordación de marca</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Materiales visuales atractivos que captan la atención</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Miniaturas que aumentan el CTR y la visibilidad del contenido</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4 mt-5">
-
-            <h4 class="fw-bold">
-                Ideal Para
-            </h4>
-
-            <p class="my-3">
-
-                Startups, empresas consolidadas, creadores de contenido, youtubers, influencers y 
-                cualquier proyecto que necesite una identidad visual fuerte o mejorar el impacto 
-                de sus miniaturas.
-
-            </p>
-
-        </div>
-
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
 
 @endsection

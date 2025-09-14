@@ -4,9 +4,7 @@
 
 @section('content')
 
-    <div class="container my-5 text-white">
-
-        <br><br>
+    <section class="container py-5">
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -35,114 +33,90 @@
 
         <br><br>
 
-        <!-- Header -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div class="row align-items-start gy-4">
 
-            <h1 class="card-title my-3 fw-bold color-primary d-flex align-items-center">
-                <span class="service-icon-circle mb-3 mt-2 me-4">
+            <!-- Header -->
+            <div class="col-12 d-flex align-items-center mb-3">
+                <span class="service-icon-circle me-3">
                     <i class="fa fa-camera"></i>
                 </span>
-                Fotografia Profesional
-            </h1>
+                <div>
+                    <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Fotografía Profesional</span>
+                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Fotografía Profesional</h1>
+                </div>
+            </div>
+
+            <!-- Descripción general -->
+            <div class="col-lg-7">
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Descripción general</h3>
+                    <p>
+                        Ofrecemos servicios de fotografía profesional para una amplia gama de necesidades. 
+                        Cubrimos eventos corporativos y sociales, realizamos sesiones de fotografía 
+                        de producto para e-commerce y catálogos, y creamos retratos profesionales 
+                        para perfiles y uso corporativo. Utilizamos equipo de alta gama y técnicas 
+                        de iluminación avanzadas para asegurar imágenes impactantes y de calidad superior.
+                    </p>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Qué incluye el servicio?</h3>
+                    <ul>
+                        <li>Planificación detallada de la sesión fotográfica</li>
+                        <li>Cobertura fotográfica en localización o estudio con equipo profesional</li>
+                        <li>Selección y curación de las mejores imágenes</li>
+                        <li>Retoque y edición profesional avanzada (color, contraste, limpieza)</li>
+                        <li>Entrega de fotografías en alta resolución y formatos optimizados para web</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Ideal Para</h3>
+                    <p>
+                        Empresas, emprendedores, tiendas online, organizadores de eventos, 
+                        agencias de publicidad y particulares 
+                        que necesiten fotografía de alta calidad para diversos fines.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <div class="service-detail-card mb-4">
+
+                    <h3 class="color-primary mb-2">Entregables</h3>
+                    <ul>
+                        <li>Galería online privada con las fotografías seleccionadas</li>
+                        <li>Archivos digitales en alta resolución (JPG/TIFF)</li>
+                        <li>Archivos optimizados para uso web y redes sociales</li>
+                        <li>Licencia de uso según acuerdo</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">Beneficios Clave</h3>
+                    <ul>
+                        <li>Imágenes de alta calidad que realzan su marca, producto o evento</li>
+                        <li>Material visual atractivo y profesional para marketing y comunicación</li>
+                        <li>Consistencia visual en todos sus canales</li>
+                        <li>Recuerdos duraderos y de calidad de momentos importantes</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card mb-4">
+                    <h3 class="color-primary mb-2">¿Interesado?</h3>
+                    <p>Contáctanos para obtener una propuesta personalizada para tu proyecto.</p>
+                    <a href="#contact" class="btn-gradient-service w-100 mt-2 d-flex align-items-center justify-content-center">
+                        Consulta sin compromiso <span class="ms-2">→</span>
+                    </a>
+                </div>
+
+            </div>
 
         </div>
 
-        <!-- Descripcion general -->
-         <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <p class="fs-5">
-
-                Ofrecemos servicios de fotografía profesional para una amplia gama de necesidades. 
-                Cubrimos eventos corporativos y sociales, realizamos sesiones de fotografía 
-                de producto para e-commerce y catálogos, y creamos retratos profesionales 
-                para perfiles y uso corporativo. Utilizamos equipo de alta gama y técnicas 
-                de iluminación avanzadas para asegurar imágenes impactantes y de calidad superior.
-
-            </p>
-
-        </div>
-
-        <!-- Que Incluye -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 my-5">
-
-            <h4 class="fw-bold">
-                ¿Qué Incluye el servicio?
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Planificación detallada de la sesión fotográfica</li>
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Cobertura fotográfica en localización o estudio con equipo profesional</li>
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Dirección artística durante la sesión (si aplica)</li>
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Selección y curación de las mejores imágenes</li>
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Retoque y edición profesional avanzada (color, contraste, limpieza)</li>
-                <li class="my-4"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Entrega de fotografías en alta resolución y formatos optimizados para web</li>
-            </ul>
-
-        </div>
-
-        <!-- Entregables Tipicos -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4">
-
-            <h4 class="fw-bold">
-                Entregables Típicos
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Galería online privada con las fotografías seleccionadas</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos digitales en alta resolución (JPG/TIFF)</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Archivos optimizados para uso web y redes sociales</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-circle-check text-success"></i></span>Licencia de uso según acuerdo</li>
-            </ul>
-
-        </div>
-
-        <!-- Beneficios Clave -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 bg-card-dark rounded-4 mb-4">
-
-            <h4 class="fw-bold">
-                Beneficios Clave
-            </h4>
-
-            <ul class="fa-ul my-5">
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Imágenes de alta calidad que realzan su marca, producto o evento</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Material visual atractivo y profesional para marketing y comunicación</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Consistencia visual en todos sus canales</li>
-                <li class="my-3"><span class="fa-li"><i class="fas fa-shield-halved text-primary"></i></span>Recuerdos duraderos y de calidad de momentos importantes</li>
-            </ul>
-
-        </div>
-
-        <!-- Ideal Para -->
-        <div class="col-lg-12 col-md-12 col-sm-12 p-4 mt-5 bg-card-dark rounded-4">
-
-            <h4 class="fw-bold">
-                Ideal Para
-            </h4>
-
-            <p class="my-3">
-                Empresas, emprendedores, tiendas online, organizadores de eventos, 
-                agencias de publicidad y particulares 
-                que necesiten fotografía de alta calidad para diversos fines.
-            </p>
-
-        </div>
-
-        <!-- Footer Servicio -->
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center p-4 my-5 slide-right-anim">
-            
-            <h2 class="fw-bold my-4 color-primary">
-                ¿Listo para crear algo memorable?
-            </h2>
-
-            <p class="my-4">
-                Para solicitar este servicio, por favor diligencia el formulario a continuación y
-                uno de nuestros asesores se pondrá en contacto contigo a la brevedad.
-            </p>
-
-            <a href="#" class="btn btn-primary btn-lg my-5">Hablemos de tu proyecto</a>
-
-        </div>
-
-    </div>
+    </section>
 
 @endsection
