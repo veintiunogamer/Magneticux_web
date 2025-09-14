@@ -9,6 +9,9 @@
   --breakpoint-xl: 1200px;
   --breakpoint-xxl: 1400px;
 
+  --gradient-start: #6ec1e4;
+  --gradient-end: #a259e6;
+
   --bg-color: #181d22;
   --bg-accent-color: #232b33;
   --bg-breadcrumb: #232b33;
@@ -82,6 +85,64 @@ a {
   transition: all 0.2s ease-in-out;
   font-weight: bolder;
 
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    color: #222 !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(110,193,228,0.15);
+    transition: background 0.3s, color 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-gradient:hover, .btn-gradient:focus {
+    color: #fff !important;
+    background: linear-gradient(90deg, var(--gradient-end), var(--gradient-start));
+    text-decoration: none;
+}
+
+.btn-gradient-toggle {
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) !important;
+    border: none !important;
+    border-radius: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    box-shadow: 0 2px 8px rgba(110,193,228,0.15);
+    transition: background 0.3s;
+}
+
+.btn-gradient-toggle:focus, .btn-gradient-toggle:hover {
+    background: linear-gradient(90deg, var(--gradient-end), var(--gradient-start)) !important;
+    outline: none !important;
+    border: none;
+}
+
+.btn-gradient-outline {
+    background: transparent;
+    color: var(--accent-color) !important;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) 1;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-gradient-outline:hover, .btn-gradient-outline:focus {
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    color: #fff !important;
+    text-decoration: none;
+    border-image: none;
+    border: 2px solid var(--gradient-end);
 }
 
 .border-grey {
@@ -278,6 +339,142 @@ nav {
   height: auto;
 }
 
+.service-card {
+    background: #212733;
+    border-radius: 22px;
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.18s, transform 0.18s;
+    border: 1px solid #232b33;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    opacity: 0;
+    transition: opacity 0.25s;
+    z-index: 2;
+}
+
+.service-card:hover {
+    box-shadow: 0 2px 15px rgba(110,193,228,0.18);
+    transform: translateY(-6px) scale(1);
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-icon-circle {
+    width: 70px;
+    height: 70px;
+    background: #232b33;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    border: 2px solid rgba(110,193,228,0.12);
+    box-shadow: 0 2px 8px rgba(110,193,228,0.10);
+    transition: border-color 0.3s;
+}
+
+.service-icon-circle i {
+    font-size: 2.2rem;
+    color: var(--accent-color);
+    transition: color 0.3s;
+}
+
+.service-card:hover .service-icon-circle {
+    border-color: var(--accent-color);
+}
+
+.btn-gradient-service {
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    color: #222 !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.6rem 1.6rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 8px rgba(110,193,228,0.10);
+    transition: background 0.3s, color 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.btn-gradient-service:hover, .btn-gradient-service:focus {
+    background: linear-gradient(90deg, var(--gradient-end), var(--gradient-start));
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.about-icon-circle {
+    width: 180px;
+    height: 180px;
+    border: 2px dashed var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: border-color 0.3s;
+}
+.about-icon-circle i {
+    font-size: 4rem;
+    color: var(--accent-color);
+}
+
+.home_header_section {
+    min-height: 70vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-bottom: none;
+    width: 100%;
+}
+
+.magneticux-logo {
+    font-family: 'Nunito', 'Montserrat', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    letter-spacing: 0.02em;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.magneticux-logo .ux {
+    color: var(--accent-color);
+}
+
+.magneticux-slogan {
+    color: #cfd8df;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    width: 90vw;
+}
 
 #whatsapp-button {
   position: fixed;
@@ -306,16 +503,117 @@ nav {
 /* Móviles pequeños (teléfonos en vertical) */
 @media (max-width: 480px) {
 
+  .navbar-nav {
+    gap: 0.5rem !important;
+  }
+  .btn-gradient {
+    width: 100%;
+    padding: 0.75rem 0;
+    margin-top: 1rem;
+  }
+
+  .magneticux-logo {
+    font-size: 2.2rem;
+  }
+  .magneticux-slogan {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  .home_header_section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service-card {
+    min-height: 260px;
+    padding: 1rem;
+  }
+  .service-icon-circle {
+    width: 44px;
+    height: 44px;
+  }
+  .service-icon-circle i {
+    font-size: 1.2rem;
+  }
+
 }
 
 
 /* Móviles grandes (teléfonos en horizontal) */
 @media (min-width: 481px) and (max-width: 767px) {
 
+  .navbar-nav {
+    gap: 0.5rem !important;
+  }
+  .btn-gradient {
+    width: 100%;
+    padding: 0.75rem 0;
+    margin-top: 1rem;
+  }
+
+  .about-icon-circle {
+    width: 120px;
+    height: 120px;
+  }
+  .about-icon-circle i {
+    font-size: 2.5rem;
+  }
+  #aboutUs h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  #aboutUs p {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
 }
 
 /* Tabletas (pantallas entre 768px y 1024px) */
 @media (min-width: 768px) and (max-width: 991px) {
+  
+  .navbar-nav {
+      gap: 0.5rem !important;
+  }
+  .btn-gradient {
+      width: 100%;
+      padding: 0.75rem 0;
+      margin-top: 1rem;
+  }
+
+  .magneticux-logo {
+        font-size: 3rem;
+  }
+  .magneticux-slogan {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .home_header_section .btn-gradient,
+  .home_header_section .btn-gradient-outline {
+      width: 100%;
+      font-size: 1rem !important;
+      padding: 0.8rem 0 !important;
+      margin-bottom: 0.5rem;
+  }
+  .home_header_section .d-flex {
+      flex-direction: column !important;
+      gap: 0.5rem !important;
+      width: 100%;
+  }
+
+  .service-card {
+    min-height: 320px;
+    padding: 1.2rem;
+  }
+  .service-icon-circle {
+    width: 56px;
+    height: 56px;
+  }
+  .service-icon-circle i {
+    font-size: 1.6rem;
+  }
 
 }
 

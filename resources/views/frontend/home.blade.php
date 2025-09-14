@@ -6,38 +6,49 @@
 
 
     <!-- Cabecera tipo hero -->
-    <section class="home_header_section d-flex flex-column justify-content-center align-items-center text-center" style="max-width: 1200px; width: 95vw; margin: 0 auto;">
+    <section class="home_header_section d-flex flex-column justify-content-center align-items-center text-center">
         <span class="magneticux-logo">
-            Magnetic<span class="ux"> UX</span>
+            Magnetic<span class="ux">UX</span>
         </span>
-        <div class="magneticux-slogan">
-            Tu esencia merece diseño.
+
+        <div class="magneticux-slogan my-5">
+            Tu esencia merece diseño. Transformamos ideas en experiencias visuales y emocionales que conectan.
         </div>
+
+        
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-3 w-100">
+            <a href="#contact" class="btn-gradient fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
+                Comienza tu proyecto
+                <span class="ms-2" style="font-size: 1.3rem;">→</span>
+            </a>
+            <a href="#services" class="btn-gradient-outline fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
+                Ver servicios
+            </a>
+        </div>
+
     </section>
 
 
     <!-- ¿Qué es MagneticUX? -->
-    <section class="container d-flex  mt-5 flex-column align-items-center justify-content-center py-5" id="aboutUs" style="padding-top: 120px; padding-bottom: 80px;">
-        
-        <div class="mb-4">
+    <section class="container py-5" id="aboutUs" style="padding-top: 120px; padding-bottom: 80px;">
 
-            <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-                <span class="d-flex align-items-center justify-content-center mx-auto" style="width: 180px; height: 180px; border: 3px dashed #6ec1e4; border-radius: 50%;">
-                    <i class="fa fa-pencil" style="font-size: 4.2rem; color: #6ec1e4;"></i>
-                </span>
+        <div class="row align-items-center justify-content-center gx-5 gy-5">
+            <div class="col-12 col-md-7 text-md-start text-center">
+                <h2 class="fw-bold mb-3 color-primary" style="font-size: 2.5rem;">¿Qué es MagneticUX?</h2>
+                <p class="fs-5 text-white-50 mb-3" style="line-height: 1.7;">
+                    MagneticUX es un estudio de diseño estratégico y emocional. Creamos identidades auténticas y memorables para emprendedores, marcas personales y creativos digitales.<br><br>
+                    Nuestro enfoque une investigación, arte y tecnología para que tu marca conecte de verdad con tu audiencia.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-5 d-flex justify-content-center">
+                <div class="about-icon-circle d-flex align-items-center justify-content-center mx-auto">
+                    <i class="fa fa-pencil"></i>
+                </div>
             </div>
 
         </div>
-
-        <h2 class="fw-bold mb-3" style="color: #6ec1e4; font-size: 2.5rem;">¿Qué es MagneticUX?</h2>
         
-        <div class="mx-auto" style="max-width: 800px;">
-            <p class="fs-5 text-white-50 mb-3" style="line-height: 1.7;">
-                MagneticUX es un estudio de diseño estratégico y emocional. Nos dedicamos a crear identidades de marca auténticas y profundas para emprendedores, marcas personales y creativos digitales que buscan conectar de verdad con su audiencia.<br><br>
-                Creemos que cada proyecto tiene una esencia única. Nuestra misión es traducirla en una experiencia visual y funcional que no solo se vea bien, sino que se sienta correcta, memorable y, sobre todo, magnética.
-            </p>
-        </div>
-
     </section>
     
 
@@ -51,99 +62,111 @@
             
             <!-- Servicio 1 -->
             <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
-                    <span class="service-icon-circle mb-3 mt-2">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4">
+                    <span class="service-icon-circle mb-4">
                         <i class="fa fa-video-camera"></i>
                     </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Producción de Video Corporativo</h4>
-                    <div class="text-white-50 mb-3 text-center">Creamos videos impactantes para presentaciones, promociones y redes sociales, cubriendo desde el guion hasta la postproducción final.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-1']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <h4 class="fw-bold text-white text-center mb-2">Video Corporativo</h4>
+                    <div class="text-white-50 mb-4 text-center">Producción audiovisual completa para empresas y marcas.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-1']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información</a>
                 </div>
             </div>
 
             <!-- Servicio 2 -->
             <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-camera"></i>
                     </span>
                     <h4 class="fw-bold text-white text-center mb-3">Fotografía Profesional</h4>
-                    <div class="text-white-50 mb-3 text-center">Capturamos la esencia de tus eventos, productos y equipo con imágenes de alta calidad para catálogos, web y perfiles corporativos.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-2']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Servicio 3 -->
-            <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
-                    <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-microphone"></i>
-                    </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Grabación y Edición de Audio</h4>
-                    <div class="text-white-50 mb-3 text-center">Producimos audio de alta fidelidad para podcasts, locuciones y audiolibros, asegurando un sonido claro y profesional.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-3']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Servicio 4 -->
-            <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
-                    <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-film"></i>
-                    </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Postproducción Audiovisual</h4>
-                    <div class="text-white-50 mb-3 text-center">Transformamos tu material crudo en una pieza final pulida con edición avanzada, color, motion graphics y efectos visuales.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-4']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <div class="text-white-50 mb-3 text-center">Sesiones fotográficas de alta calidad para productos, eventos y equipos.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-2']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <!-- Servicio 5 -->
             <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-paint-brush"></i>
+                        <i class="fa fa-star"></i>
                     </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Diseño Gráfico y Branding</h4>
-                    <div class="text-white-50 mb-3 text-center">Construimos la identidad visual de tu marca, desde el logo y la paleta de colores hasta miniaturas optimizadas para video.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-5']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <h4 class="fw-bold text-white text-center mb-3">Branding e identidad visual</h4>
+                    <div class="text-white-50 mb-3 text-center">Diseño integral de identidad visual para conectar con tu audiencia.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-5']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <!-- Servicio 6 -->
             <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-code"></i>
                     </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Desarrollo Web Completo</h4>
-                    <div class="text-white-50 mb-3 text-center">Creamos sitios web a medida, desde landing pages y webs corporativas hasta robustas tiendas de e-commerce.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-6']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <h4 class="fw-bold text-white text-center mb-3">Software y Landing pages</h4>
+                    <div class="text-white-50 mb-3 text-center">Soluciones digitales a medida, incluyendo software de facturación y landing pages.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-6']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="col">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
+                    <span class="service-icon-circle mb-3 mt-2">
+                        <i class="fa fa-mobile"></i>
+                    </span>
+                    <h4 class="fw-bold text-white text-center mb-3">Contenido vertical para redes</h4>
+                    <div class="text-white-50 mb-3 text-center">Creación de contenido optimizado para TikTok, Reels y Shorts.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-3']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Servicio 4 -->
+            <div class="col">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
+                    <span class="service-icon-circle mb-3 mt-2">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+                    <h4 class="fw-bold text-white text-center mb-3">Branding para Eventos</h4>
+                    <div class="text-white-50 mb-3 text-center">Identidad visual y materiales para eventos presenciales y digitales.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-4']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Servicio 5 -->
+            <div class="col">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
+                    <span class="service-icon-circle mb-3 mt-2">
+                        <i class="fa fa-paint-brush"></i>
+                    </span>
+                    <h4 class="fw-bold text-white text-center mb-3">Delineado AutoCAD</h4>
+                    <div class="text-white-50 mb-3 text-center">Creación de planos técnicos 2D precisos y organizados.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-5']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <!-- Servicio 7 -->
             <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
-                        <i class="fa fa-mobile"></i>
+                        <i class="fa fa-layer-group"></i>
                     </span>
-                    <h4 class="fw-bold text-white text-center mb-3">Desarrollo de Aplicaciones</h4>
-                    <div class="text-white-50 mb-3 text-center">Transformamos tus ideas en aplicaciones móviles (iOS/Android) y web (PWA) funcionales, desde el diseño hasta el lanzamiento.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-7']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <h4 class="fw-bold text-white text-center mb-3">Render de planos</h4>
+                    <div class="text-white-50 mb-3 text-center">Visualización 3D fotorrealista a partir de planos 2D.</div>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-7']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <!-- Servicio 8 -->
-            <div class="col">
-                <div class="card h-100 bg-card-dark shadow-sm p-3 d-flex flex-column align-items-center" style="border-radius: 18px; min-height: 370px;">
+            <!--<div class="col">
+                <div class="service-card h-100 d-flex flex-column align-items-center justify-content-between p-4" style="border-radius: 18px; min-height: 370px;">
                     <span class="service-icon-circle mb-3 mt-2">
                         <i class="fa fa-briefcase"></i>
                     </span>
                     <h4 class="fw-bold text-white text-center mb-3">Consultoría Audiovisual y Digital</h4>
                     <div class="text-white-50 mb-3 text-center">Te asesoramos para desarrollar una estrategia de contenido efectiva, desde la idea hasta la distribución y optimización SEO.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-8']) }}" class="fw-bold service-link mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-8']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
