@@ -78,6 +78,7 @@ a {
   color: var(--accent-color) !important;
   background-color: var(--bg-color) !important;
   border-color: var(--accent-color) !important;
+  border-radius: 2em !important;
 }
 
 .btn-outline-primary:hover, .btn-primary:hover {
@@ -92,7 +93,7 @@ a {
     color: #222 !important;
     font-weight: bold;
     border: none;
-    border-radius: 2rem;
+    border-radius: 2rem !important;
     padding: 0.5rem 2rem;
     box-shadow: 0 2px 8px rgba(110,193,228,0.15);
     transition: background 0.3s, color 0.3s;
@@ -126,7 +127,7 @@ a {
     background: transparent;
     color: var(--accent-color) !important;
     font-weight: bold;
-    border-radius: 2rem;
+    border-radius: 2rem !important;
     padding: 0.5rem 2rem;
     border: 2px solid;
     border-image: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) 1;
@@ -143,6 +144,7 @@ a {
     text-decoration: none;
     border-image: none;
     border: 2px solid var(--gradient-end);
+    border-radius: 2rem !important;
 }
 
 .border-grey {
@@ -188,6 +190,23 @@ a {
 }
 
 
+/* Botones hero compactos y del mismo tamaño */
+.home_header_section .btn-gradient,
+.home_header_section .btn-gradient-outline {
+    border-radius: 2rem !important;
+    font-size: 1.08rem;
+    padding: 0.55rem 1.5rem;
+    min-width: 180px;
+    max-width: 260px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*** HEADER **/
 header.fixed-header {
   position: fixed;
@@ -199,8 +218,11 @@ header.fixed-header {
   transition: background 0.3s;
 }
 header.fixed-header.scrolled {
-  background: rgba(35, 43, 51, 0.85);
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.12);
+  background: rgba(35, 43, 51, 0.75); /* Fondo semitransparente */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(110,193,228,0.08);
+  transition: background 0.3s;
 }
 nav {
   background-color: transparent !important;
@@ -368,6 +390,63 @@ nav {
     font-weight: 500;
 }
 
+.ready-section {
+    width: 100%;
+    background: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ready-card {
+    background: #212733;
+    border-radius: 32px;
+    max-width: 90vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.btn-gradient {
+    border-radius: 2rem !important;
+    font-size: 1.1rem;
+    padding: 0.6rem 2rem;
+    min-width: 200px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-whatsapp {
+    background: transparent;
+    color: #cfd8df !important;
+    border: 2px solid #2e3440;
+    border-radius: 2rem !important;
+    font-size: 1.1rem;
+    min-width: 200px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+    box-shadow: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-whatsapp i {
+    font-size: 1.4rem;
+    color: #25d366;
+    transition: color 0.3s;
+}
+
+.btn-whatsapp:hover, .btn-whatsapp:focus {
+    background: #25d366;
+    color: #fff !important;
+    border-color: #25d366;
+    text-decoration: none;
+}
+
+.btn-whatsapp:hover i, .btn-whatsapp:focus i {
+    color: #fff;
+}
+
 /** FOOTER **/
 .footer-magneticux {
   background: #232b33 !important;
@@ -386,8 +465,6 @@ nav {
   background: #4fa0c2 !important;
   color: #fff !important;
 }
-
-
 
 /** HOME **/
 .home_header_section {
@@ -628,6 +705,27 @@ nav {
     font-size: 1.5rem;
   }
 
+  .ready-card {
+    padding: 1rem 0.5rem;
+  }
+  .ready-card h2 {
+    font-size: 1.3rem !important;
+  }
+  .ready-card p {
+    font-size: 1rem !important;
+  }
+  .btn-gradient,
+  .btn-whatsapp {
+    width: 100% !important;
+    min-width: unset !important;
+    font-size: 1rem !important;
+    padding: 0.8rem 0.3rem !important;
+  }
+  .btn-whatsapp i {
+    font-size: 2rem !important;
+    margin-right: 0.8rem !important;
+  }
+
 }
 
 
@@ -684,14 +782,41 @@ nav {
   .home_header_section .btn-gradient,
   .home_header_section .btn-gradient-outline {
     width: 100%;
+    min-width: unset;
+    max-width: unset;
     font-size: 1rem !important;
-    padding: 0.8rem 0 !important;
+    padding: 0.8rem 0.5rem !important;
     margin-bottom: 0.5rem;
   }
   .home_header_section .d-flex {
+    width: 35%;
+  }
+
+  #aboutUs .row {
     flex-direction: column !important;
-    gap: 0.5rem !important;
-    width: 100%;
+    gap: 2rem !important;
+  }
+  #aboutUs .col-md-7,
+  #aboutUs .col-md-5 {
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #aboutUs h2 {
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
+  #aboutUs p {
+    font-size: 1.1rem !important;
+    text-align: center !important;
+  }
+  .about-icon-circle {
+    margin: 0 auto !important;
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .about-icon-circle i {
+    font-size: 2.5rem !important;
   }
 
   .service-card {
@@ -729,6 +854,31 @@ nav {
   }
   .team-phrase-icon {
     font-size: 2.2rem;
+  }
+
+  .ready-card {
+    padding: 2rem 1rem;
+  }
+  .ready-section .d-flex {
+    align-items: center !important;
+    width: 100%;
+  }
+  .btn-gradient,
+  .btn-whatsapp {
+    width: 100% !important;
+    min-width: unset !important;
+    max-width: unset !important;
+    font-size: 1.1rem !important;
+    padding: 0.9rem 0.5rem !important;
+    margin-bottom: 0 !important;
+    justify-content: center !important;
+  }
+  .btn-whatsapp i {
+    font-size: 1.7rem !important;
+    margin-right: 0.7rem !important;
+  }
+  .ready-card h2 {
+    font-size: 2rem !important;
   }
 
 }

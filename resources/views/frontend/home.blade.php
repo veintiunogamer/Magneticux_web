@@ -4,9 +4,9 @@
 
 @section('content')
 
-
     <!-- Cabecera tipo hero -->
     <section class="home_header_section d-flex flex-column justify-content-center align-items-center text-center">
+        
         <span class="magneticux-logo">
             Magnetic<span class="ux">UX</span>
         </span>
@@ -19,7 +19,7 @@
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-3 w-100">
             <a href="#contact" class="btn-gradient fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
                 Comienza tu proyecto
-                <span class="ms-2" style="font-size: 1.3rem;">→</span>
+                <span class="ms-2" style="font-size: 1.3rem;"><i class="fa fa-arrow-right"></i></span>
             </a>
             <a href="#services" class="btn-gradient-outline fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
                 Ver servicios
@@ -68,7 +68,7 @@
                     </span>
                     <h4 class="fw-bold text-white text-center mb-2">Video Corporativo</h4>
                     <div class="text-white-50 mb-4 text-center">Producción audiovisual completa para empresas y marcas.</div>
-                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-1']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información</a>
+                    <a href="{{ route('servicio.detalle', ['service_name' => 'service-1']) }}" class="btn-gradient-service fw-bold mt-auto">Ampliar información <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -243,12 +243,36 @@
     </section>
 
     <!-- Listo para empezar -->
-    <section class="col-12 text-center my-5 p-3 home_contact_section  slide-up-anim" id="contact" style="padding-top: 130px; padding-bottom: 80px;">
-        <p class="display-5 fw-bolder upper text-white mt-5">¿Listo para crear algo memorable?</p>
-        <p class="fs-5 text-secondary text-white">
-            Hablemos de tu proyecto, cuéntanos tu idea y descubramos juntos cómo hacerla magnética.
-        </p>
-        <a href="#" class="btn btn-magneticux col-lg-4 col-md-4 col-sm-8 p-3 btn-lg my-5 text-white fw-bold" role="button">Hablemos de tu proyecto</a>
+    <section class="ready-section d-flex flex-column justify-content-center align-items-center py-5 my-5" id="contact">
+        
+        <div class="ready-card px-4 py-5 w-100">
+            
+            <h2 class="display-5 fw-bolder text-white text-center mb-5" style="font-size: 2.7rem;">¿Listo para crear algo memorable?</h2>
+            
+            <p class="fs-5 text-secondary text-center mb-5" style="color: #cfd8df;">
+                Hablemos de tu proyecto. Cuéntanos tu idea y preparemos juntos algo magnético.<br>
+                Puedes escribirnos directamente o rellenar el formulario.
+            </p>
+
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-4 w-100">
+                
+                <a href="#" class="btn-gradient fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
+                    Hablemos de tu proyecto
+                    <span class="ms-2" style="font-size: 1.3rem;"><i class="fa fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ urlencode($message) }}"
+                class="btn-whatsapp fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center"
+                target="_blank"
+                style="font-size: 1.1rem;">
+                    <i class="fab fa-whatsapp me-2"></i>
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
     </section>
 
     <!-- botón flotante whatsapp -->
@@ -257,6 +281,5 @@
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
-
 
 @endsection
