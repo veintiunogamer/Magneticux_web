@@ -22,7 +22,7 @@
                         <a class="nav-link fw-bold text-white" href="#services">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold text-white" href="#team">Equipo</a>
+                        <a class="nav-link fw-bold text-white" href="#equipo">Equipo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-white" href="#contact">Contacto</a>

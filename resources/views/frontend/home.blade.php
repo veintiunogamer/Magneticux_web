@@ -173,49 +173,73 @@
     </section>
     
     <!-- Nuestro Equipo -->
-    <section class="container py-5">
+    <section class="container py-5 mb-5" id="equipo">
         
-        <h2 class="fw-bold text-center mb-2" style="color: #6ec1e4; font-size: 2.5rem;">Nuestro Equipo</h2>
-        <p class="text-center mb-5" style="color: #cfd8df; font-size: 1.2rem;">Las mentes detrás de la magia.</p>
+        <h2 class="fw-bold text-center mb-2 color-primary" style="font-size: 2.5rem;">Nuestro Equipo</h2>
+        
+        <p class="text-center mb-5" style="color: #cfd8df; font-size: 1.2rem;">Conoce a los creativos detrás de la magia.</p>
         
         <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+
             <!-- Miembro 1 -->
             <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-4 d-flex flex-column align-items-center justify-content-center member-card" style="border-radius: 16px; min-height: 340px;">
-                    <span class="team-icon mb-4 mt-4">
-                        <i class="fa fa-user-circle"></i>
-                    </span>
-                    <h4 class="fw-bold text-white text-center mb-2">Daniel Sánchez</h4>
-                    <div class="text-center member-role">CEO y Fundador</div>
+                <div class="team-card p-4 h-100">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="team-icon-circle me-3 flex-shrink-0">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <div>
+                            <span class="team-name fw-bold text-white" style="font-size: 1.5rem;">Daniel Sánchez</span><br>
+                            <span class="team-role" style="color: var(--accent-color); font-size: 1.1rem;">Dirección de Arte y Diseño</span>
+                        </div>
+                    </div>
+                    <div class="team-desc fst-italic text-white-50 mt-2">
+                        Experto en dirección visual y diseño integral. Fusiona estrategia, creatividad y detalle técnico para narrar la esencia de cada marca con fuerza y coherencia.
+                    </div>
+                </div>
+            </div>
+            <!-- Miembro 2 -->
+            <div class="col">
+                <div class="team-card p-4 h-100">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="team-icon-circle me-3 flex-shrink-0">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <div>
+                            <span class="team-name fw-bold text-white" style="font-size: 1.5rem;">José Alzate</span><br>
+                            <span class="team-role" style="color: var(--accent-color); font-size: 1.1rem;">Diseño y Desarrollo</span>
+                        </div>
+                    </div>
+                    <div class="team-desc fst-italic text-white-50 mt-2">
+                        Especialista en experiencias interactivas y soluciones digitales. Une diseño visual y programación para crear productos estéticos, fluidos y funcionales.
+                    </div>
                 </div>
             </div>
 
-            <!-- Miembro 2 -->
-            <div class="col">
-                <div class="card h-100 bg-transparent border border-secondary shadow-sm p-4 d-flex flex-column align-items-center justify-content-center member-card" style="border-radius: 16px; min-height: 340px;">
-                    <span class="team-icon mb-4 mt-4">
-                        <i class="fa fa-user-circle"></i>
-                    </span>
-                    <h4 class="fw-bold text-white text-center mb-2">José Alzate</h4>
-                    <div class="text-center member-role">Tech Lead</div>
-                </div>
-            </div>
         </div>
 
     </section>
 
     <!-- Frase Equipo -->
-    <section class="container-fluid py-5" style="background: #2a3238;">
-        <div class="d-flex flex-column align-items-center mt-3 justify-content-center" style="min-height: 380px;">
-            <blockquote class="text-center" style="max-width: 900px; margin: 0 auto;">
-                <p class="display-6 fw-normal mb-4" style="color: #fff; font-size: 2.5rem; line-height: 1.2;">
-                    "El diseño estratégico es el puente entre la esencia de tu marca y el corazón de tu cliente."
+    <section class="team-phrase-section py-5">
+
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 320px;">
+            <span class="team-phrase-icon mb-3">
+                <i class="fa fa-quote-right"></i>
+            </span>
+
+            <blockquote class="text-center team-phrase-blockquote">
+                
+                <p class="team-phrase-text mb-4">
+                    “El diseño estratégico es el puente entre la esencia de tu marca y el corazón de tu cliente.”
                 </p>
-                <footer class="blockquote-footer mt-3" style="color: #6ec1e4; font-size: 1.1rem;">
+                <footer class="team-phrase-footer mt-3">
                     — El equipo de MagneticUX
                 </footer>
+
             </blockquote>
         </div>
+
     </section>
 
     <!-- Listo para empezar -->
@@ -227,6 +251,7 @@
         <a href="#" class="btn btn-magneticux col-lg-4 col-md-4 col-sm-8 p-3 btn-lg my-5 text-white fw-bold" role="button">Hablemos de tu proyecto</a>
     </section>
 
+    <!-- botón flotante whatsapp -->
     <a href="https://wa.me/{{ $whatsappNumber }}?text={{ urlencode($message) }}"
         id="whatsapp-button"
         target="_blank">

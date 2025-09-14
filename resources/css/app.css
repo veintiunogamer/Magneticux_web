@@ -188,7 +188,6 @@ a {
 }
 
 
-
 /*** HEADER **/
 header.fixed-header {
   position: fixed;
@@ -285,6 +284,88 @@ nav {
   font-weight: 500;
   font-size: 1.1rem;
   margin-top: 0.5rem;
+}
+
+/* Tarjetas de equipo */
+.team-card {
+    background: #212733;
+    border-radius: 28px;
+    border: 1px solid #232b33;
+    min-height: 220px;
+    transition: box-shadow 0.18s, transform 0.18s;
+}
+
+.team-card:hover {
+    box-shadow: 0 4px 20px rgba(110,193,228,0.18);
+    transform: translateY(-4px) scale(1);
+}
+
+.team-icon-circle {
+    width: 64px;
+    height: 64px;
+    background: #232b33;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--accent-color);
+}
+
+.team-icon-circle i {
+    font-size: 2rem;
+    color: var(--accent-color);
+}
+
+.team-name {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.team-role {
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.team-desc {
+    font-size: 1rem;
+    color: #cfd8df;
+    margin-top: 0.5rem;
+}
+
+.team-phrase-section {
+    background: #212733;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.team-phrase-icon {
+    font-size: 3rem;
+    color: #29506a;
+    opacity: 0.7;
+}
+
+.team-phrase-blockquote {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team-phrase-text {
+    color: #cfd8df;
+    font-size: 2.2rem;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.team-phrase-footer {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 /** FOOTER **/
@@ -536,6 +617,16 @@ nav {
   .service-icon-circle i {
     font-size: 1.2rem;
   }
+  .team-phrase-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .team-phrase-text {
+    font-size: 1.1rem;
+  }
+  .team-phrase-icon {
+    font-size: 1.5rem;
+  }
 
 }
 
@@ -574,33 +665,33 @@ nav {
 @media (min-width: 768px) and (max-width: 991px) {
   
   .navbar-nav {
-      gap: 0.5rem !important;
+    gap: 0.5rem !important;
   }
   .btn-gradient {
-      width: 100%;
-      padding: 0.75rem 0;
-      margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem 0;
+    margin-top: 1rem;
   }
 
   .magneticux-logo {
-        font-size: 3rem;
+    font-size: 3rem;
   }
   .magneticux-slogan {
-      font-size: 1.1rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .home_header_section .btn-gradient,
   .home_header_section .btn-gradient-outline {
-      width: 100%;
-      font-size: 1rem !important;
-      padding: 0.8rem 0 !important;
-      margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1rem !important;
+    padding: 0.8rem 0 !important;
+    margin-bottom: 0.5rem;
   }
   .home_header_section .d-flex {
-      flex-direction: column !important;
-      gap: 0.5rem !important;
-      width: 100%;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    width: 100%;
   }
 
   .service-card {
@@ -613,6 +704,31 @@ nav {
   }
   .service-icon-circle i {
     font-size: 1.6rem;
+  }
+
+  .team-card {
+    min-height: 0;
+    padding: 2rem 1rem;
+  }
+  .team-icon-circle {
+    width: 48px;
+    height: 48px;
+  }
+  .team-icon-circle i {
+    font-size: 1.3rem;
+  }
+  .team-name {
+    font-size: 1.1rem !important;
+  }
+  .team-role {
+    font-size: 1rem !important;
+  }
+
+  .team-phrase-text {
+    font-size: 1.5rem;
+  }
+  .team-phrase-icon {
+    font-size: 2.2rem;
   }
 
 }
