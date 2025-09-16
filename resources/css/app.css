@@ -130,7 +130,6 @@ a {
     border-radius: 2rem !important;
     padding: 0.5rem 2rem;
     border: 2px solid;
-    border-image: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) 1;
     transition: background 0.3s, color 0.3s;
     box-shadow: none;
     text-align: center;
@@ -197,7 +196,7 @@ a {
     font-size: 1.08rem;
     padding: 0.55rem 1.5rem;
     min-width: 180px;
-    max-width: 260px;
+    max-width: 320px;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 0;
@@ -685,6 +684,10 @@ nav {
 /* Móviles pequeños (teléfonos en vertical) */
 @media (max-width: 480px) {
 
+  .navbar-toggler {
+    margin-right: 1em !important;
+  }
+
   .navbar-nav {
     gap: 0.5rem !important;
   }
@@ -756,11 +759,15 @@ nav {
 /* Móviles grandes (teléfonos en horizontal) */
 @media (min-width: 481px) and (max-width: 767px) {
 
+  .navbar-toggler {
+    margin-right: 1em !important;
+  }
+
   .navbar-nav {
     gap: 0.5rem !important;
   }
-  .btn-gradient {
-    width: 100%;
+  .btn-gradient, .btn-whatsapp {
+    width: 60%;
     padding: 0.75rem 0;
     margin-top: 1rem;
   }
@@ -789,7 +796,7 @@ nav {
   .navbar-nav {
     gap: 0.5rem !important;
   }
-  .btn-gradient {
+  .btn-gradient, .btn-whatsapp {
     width: 100%;
     padding: 0.75rem 0;
     margin-top: 1rem;
@@ -805,15 +812,13 @@ nav {
   }
   .home_header_section .btn-gradient,
   .home_header_section .btn-gradient-outline {
-    width: 100%;
     min-width: unset;
     max-width: unset;
     font-size: 1rem !important;
     padding: 0.8rem 0.5rem !important;
-    margin-bottom: 0.5rem;
   }
   .home_header_section .d-flex {
-    width: 35%;
+    width: 90% !important;
   }
 
   #aboutUs .row {

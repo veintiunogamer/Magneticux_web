@@ -111,6 +111,13 @@
 
         </div>
 
+        <!-- botón flotante whatsapp -->
+        <a href="https://wa.me/{{ $whatsappNumber }}?text={{ urlencode($message) }}"
+            id="whatsapp-button"
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
     </section>
 
 @endsection

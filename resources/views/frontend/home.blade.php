@@ -256,7 +256,7 @@
 
             <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-4 w-100">
                 
-                <a href="#" class="btn-gradient fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
+                <a href="#contact" class="btn-gradient fw-bold btn-lg px-4 py-2 d-flex align-items-center justify-content-center" style="font-size: 1.1rem;">
                     Hablemos de tu proyecto
                     <span class="ms-2" style="font-size: 1.3rem;"><i class="fa fa-arrow-right"></i></span>
                 </a>

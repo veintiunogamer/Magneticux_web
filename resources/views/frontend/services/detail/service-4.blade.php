@@ -4,9 +4,8 @@
 
 @section('content')
 
-    <div class="container my-5 text-white">
+    <section class="container py-5">
 
-        <br><br>
 
         <!-- Miga de pan -->
         <div class="breadcrumbs my-3 slide-right-anim">
@@ -121,8 +120,13 @@
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- botón flotante whatsapp -->
+    <a href="https://wa.me/{{ $whatsappNumber }}?text={{ urlencode($message) }}"
+        id="whatsapp-button"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
 @endsection

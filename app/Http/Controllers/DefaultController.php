@@ -21,52 +21,55 @@ class DefaultController
     */
     public function serviceDetail($service_name) {
 
+        $whatsappNumber = config('services.whatsapp.number');
+        $message = "¡Hola! Estoy interesado en tus servicios.";
+
         switch ($service_name) {
 
             case 'service-1':
     
                 // Servicio - Producción de Video Corporativo
-                return view('frontend.services.detail.service-1');
+                return view('frontend.services.detail.service-1', compact('whatsappNumber', 'message'));
 
             case 'service-2':
                 
                 // Servicio - Fotografía Profesional
-                return view('frontend.services.detail.service-2');
+                return view('frontend.services.detail.service-2', compact('whatsappNumber', 'message'));
 
             case 'service-3':
                 
                 // Servicio - Grabación y Edición de Audio
-                return view('frontend.services.detail.service-3');
+                return view('frontend.services.detail.service-3', compact('whatsappNumber', 'message'));
 
             case 'service-4':
                 
                 // Servicio - Postproducción Audiovisual
-                return view('frontend.services.detail.service-4');
+                return view('frontend.services.detail.service-4', compact('whatsappNumber', 'message'));
 
             case 'service-5':
                 
                 // Servicio - Diseño Gráfico y Branding
-                return view('frontend.services.detail.service-5');
+                return view('frontend.services.detail.service-5', compact('whatsappNumber', 'message'));
 
             case 'service-6':
                 
                 // Servicio - Desarrollo Web Completo
-                return view('frontend.services.detail.service-6');
+                return view('frontend.services.detail.service-6', compact('whatsappNumber', 'message'));
 
             case 'service-7':
                 
                 // Servicio - Desarrollo Movil
-                return view('frontend.services.detail.service-7');
+                return view('frontend.services.detail.service-7', compact('whatsappNumber', 'message'));
 
             case 'service-8':
                 
                 // Servicio - Consultoría Audiovisual y Digital
-                return view('frontend.services.detail.service-8');
+                return view('frontend.services.detail.service-8', compact('whatsappNumber', 'message'));
 
             case 'service-9':
                 
                 // Servicio - Streaming y Eventos en Vivo
-                return view('frontend.services.detail.service-9');
+                return view('frontend.services.detail.service-9', compact('whatsappNumber', 'message'));
 
             default:
 
