@@ -42,7 +42,7 @@
 
                 <div>
                     <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Software y Landing pages</span>
-                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Software y Landing pages</h1>
+                    <h1 class="fw-bold mb-0 color-primary">Software y Landing pages</h1>
                 </div>
 
             </div>

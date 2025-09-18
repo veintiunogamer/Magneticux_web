@@ -44,7 +44,7 @@
 
                 <div>
                     <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Branding e Identidad Visual</span>
-                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Branding e Identidad Visual</h1>
+                    <h1 class="fw-bold mb-0 color-primary">Branding e Identidad Visual</h1>
                 </div>
 
             </div>

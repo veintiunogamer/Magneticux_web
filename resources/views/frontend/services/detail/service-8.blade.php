@@ -44,7 +44,7 @@
 
                 <div>
                     <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Render de planos</span>
-                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Render de planos</h1>
+                    <h1 class="fw-bold mb-0 color-primary">Render de planos</h1>
                 </div>
             </div>
 

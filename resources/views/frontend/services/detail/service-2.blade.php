@@ -42,7 +42,7 @@
                 </span>
                 <div>
                     <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Fotografía Profesional</span>
-                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Fotografía Profesional</h1>
+                    <h1 class="fw-bold mb-0 color-primary">Fotografía Profesional</h1>
                 </div>
             </div>
 

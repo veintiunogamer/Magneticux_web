@@ -45,7 +45,7 @@
 
                 <div>
                     <span class="service-link">Servicios &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Video Corporativo</span>
-                    <h1 class="fw-bold mb-0 color-primary" style="font-size:2.7rem;">Video Corporativo</h1>
+                    <h1 class="fw-bold mb-0 color-primary">Video Corporativo</h1>
                 </div>
             </div>
 
