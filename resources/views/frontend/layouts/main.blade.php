@@ -42,6 +42,6 @@
     <!-- GSAP ScrollTrigger 3.12.2 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <script src="{{ asset('js/app.js') }}"></script>
-    
+    <script src="{{ asset('js/app.js') }}?v={{ time() }}"></script>
+
 </html>
