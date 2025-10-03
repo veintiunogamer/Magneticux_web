@@ -1,5 +1,3 @@
-import './bootstrap';
-
 console.log("App Js loadead!");
 
 // Registrar el plugin
