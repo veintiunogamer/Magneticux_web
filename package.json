@@ -1,15 +1,12 @@
 {
-    "$schema": "https://json.schemastore.org/package.json",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "cp resources/css/app.css public/css/app.css && cp resources/js/app.js public/js/app.js",
-        "build": "cp resources/css/app.css public/css/app.css && cp resources/js/app.js public/js/app.js"
-    },
-    "devDependencies": {
-        "axios": "^1.8.2",
-        "concurrently": "^9.0.1",
-        "sass": "^1.93.2",
-        "tailwindcss": "^4.0.0"
-    }
+  "name": "magneticux_web",
+  "version": "1.0.0",
+  "description": "Proyecto web de Magnetic UX",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'No se utiliza Laravel Mix. Trabaja directamente en public/js y public/css.'",
+    "build": "echo 'No se utiliza Laravel Mix. Trabaja directamente en public/js y public/css.'"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
 }

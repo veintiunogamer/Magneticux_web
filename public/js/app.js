@@ -1,6 +1,34 @@
 
 console.log("App Js loadead!");
 
+document.addEventListener('DOMContentLoaded', function () {
+
+    const navbarNav = document.getElementById('navbarNav');
+    const navLinks = navbarNav?.querySelectorAll('.nav-link');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+
+    if (navLinks && navbarToggler) {
+
+        navLinks.forEach(link => {
+
+            link.addEventListener('click', () => {
+
+                if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                    
+                    // Cierra el menú colapsable
+                    const collapse = new bootstrap.Collapse(navbarNav, {
+                        toggle: true
+                    });
+                }
+
+            });
+
+        });
+
+    }
+    
+});
+
 // Registrar el plugin
 gsap.registerPlugin(ScrollTrigger);
 
