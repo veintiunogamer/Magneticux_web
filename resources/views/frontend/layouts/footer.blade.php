@@ -10,7 +10,7 @@
 
         <h4 class="my-3"><span style="font-size: 2rem; font-weight: bold; color: #fff;">Magnetic</span><span style="font-size: 2rem; font-weight: bold; color: #6ec1e4;">UX</span></h4>
 
-        <div class="d-flex gap-3 text-center">
+        <div class="d-flex gap-3 text-center footer-social-icons">
           <a href="#" class="text-white"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
           <a href="#" class="text-white"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
           <a href="#" class="text-white"><i class="fa-brands fa-linkedin fa-2x"></i></a>
