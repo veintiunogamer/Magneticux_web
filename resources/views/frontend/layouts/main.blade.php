@@ -7,7 +7,7 @@
         <title>@yield('title', 'Magnetic UX')</title>
 
         <!-- Estilos -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ time() }}">
 
         <!-- Font Awesome 6.5.2 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
