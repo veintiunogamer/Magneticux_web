@@ -7,6 +7,35 @@ document.addEventListener('DOMContentLoaded', function () {
     const navLinks = navbarNav?.querySelectorAll('.nav-link');
     const navbarToggler = document.querySelector('.navbar-toggler');
 
+    const currentPath = window.location.pathname;
+    
+    // Bloque de codigo encargado de ajustar los enlaces del navbar dependiendo de la pagina en la que estemos
+    if (navLinks) {
+
+        navLinks.forEach(link => {
+
+            const href = link.getAttribute('href'); // Obtiene el valor actual del href
+
+            if (currentPath !== '/') {
+                // Si no estamos en la página principal, ajusta el href para incluir home.blade.php
+                link.setAttribute('href', `/home${href}`);
+            } else {
+                // Si estamos en la página principal, mantiene el href original
+                link.setAttribute('href', href);
+            }
+
+            // Redirige automáticamente si no estamos en "/"
+            link.addEventListener('click', function (e) {
+                if (currentPath !== '/') {
+                    e.preventDefault(); // Evita el comportamiento predeterminado
+                    window.location.href = `/${href}`; // Redirige a home.blade.php con el hash correspondiente
+                }
+            });
+
+        });
+    }
+
+    // Bloque de codigo encargado de cerrar el navbar cuando hacemos click en pantallas pequeñas
     if (navLinks && navbarToggler) {
 
         navLinks.forEach(link => {

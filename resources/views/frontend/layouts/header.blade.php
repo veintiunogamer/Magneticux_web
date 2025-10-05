@@ -29,7 +29,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#contact" class="btn-gradient fw-bold ms-lg-3 mt-3 mt-lg-0">Comienza tu proyecto</a>
+                        <a href="#contact" class="btn-gradient fw-bold ms-lg-3 mt-3 mt-lg-0 text-white">Comienza tu proyecto</a>
                     </li>
 
                 </ul>

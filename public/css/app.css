@@ -180,6 +180,11 @@ a {
   color: white !important;
 }
 
+.breadcrumbs > ol > li > a:hover {
+  color: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) !important;
+  text-decoration: none !important;
+}
+
 .zoom-hover {
   transition: transform 0.3s ease;
 }
@@ -523,12 +528,12 @@ nav {
     z-index: 2;
 }
 
-.service-card:hover {
+.service-card:hover, .service-detail-card:hover {
     box-shadow: 0 2px 15px rgba(110,193,228,0.18);
     transform: translateY(-6px) scale(1);
 }
 
-.service-card:hover::before {
+.service-card:hover::before, .service-detail-card::before {
     opacity: 1;
 }
 
@@ -679,6 +684,26 @@ nav {
     margin-bottom: 0.5rem;
     color: #cfd8df;
     font-size: 1rem;
+}
+
+.nav-item:hover {
+    background: linear-gradient(90deg, var(--gradient-end), var(--gradient-start));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.fa-brands:hover {
+    background: linear-gradient(90deg, var(--gradient-end), var(--gradient-start));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.service-detail-content-border {
+  
+  border-top: 6px solid var(--gradient-end);
+
 }
 
 /* Móviles pequeños (teléfonos en vertical) */
@@ -835,6 +860,7 @@ nav {
   }
 
 }
+
 
 /* Tabletas (pantallas entre 768px y 1024px) */
 @media (min-width: 768px) and (max-width: 991px) {
